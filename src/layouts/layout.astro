@@ -1,0 +1,54 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+}
+
+const { title = "Game of Life | Adaptive Strategies" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="header-container">
+            <div class="brand">
+                <div class="brand-logo">Game of Life</div>
+                <div class="brand-badge">
+                    <img src="/beetl.svg" alt="Logo" />
+                </div>
+            </div>
+            <nav>
+                <a href="https://singbaobao.com" class="text-sm text-gray-300 hover:text-white">
+                    <i class="fa-solid fa-arrow-left mr-1"></i> Main Portal
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <slot />
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Game of Life &bull; Adaptive Strategies for Everyone</p>
+            <p class="text-xs text-gray-400 mt-1">Reframing systems dynamics, decision friction, and personal choices into playful game moves.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

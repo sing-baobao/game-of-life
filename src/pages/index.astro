@@ -1,16 +1,99 @@
 ---
+import Layout from '../layouts/layout.astro';
+
+// Sample Strategy Cards mapped from deep structural state dynamics (64 Kua / 384 Yao models)
+const strategyCards = [
+  {
+    id: 1,
+    category: "Systemic Friction",
+    title: "The Bottlenecked Pivot",
+    situation: "You are pushing hard against organizational inertia, but every initiative stalls in committee review.",
+    dynamic: "Underlying Dynamic: Systemic exhaustion under high load. Momentum is counter-productive because the feedback loop is oversaturated.",
+    strategy: "Adaptive Strategy: Apply Marcus Aurelius's principle of 'The Obstacle is the Way.' Step back, reduce throughput, and allow the system to clear its cache before re-engaging.",
+    philosopher: "Stoic Economy of Effort"
+  },
+  {
+    id: 2,
+    category: "Personal Equilibrium",
+    title: "The Shadow Overload",
+    situation: "Minor daily friction points are triggering disproportionate frustration and cognitive fatigue.",
+    dynamic: "Underlying Dynamic: Unintegrated shadow projections. The external friction is merely mirroring an internal misalignment or suppressed boundary.",
+    strategy: "Adaptive Strategy: Adopt Carl Jung's active introspection. Treat the irritation as objective data rather than a personal attack; audit where you are over-extending your energy.",
+    philosopher: "Jungian Shadow Integration"
+  },
+  {
+    id: 3,
+    category: "Strategic Timing",
+    title: "The Premature Launch",
+    situation: "Urge to force a decision or announce a project before all structural dependencies are verified.",
+    dynamic: "Underlying Dynamic: Premature output phase. Energy is leaking because the internal architecture has not stabilized under stress testing.",
+    strategy: "Adaptive Strategy: Apply Daoist *Wu Wei* (strategic non-action). Refine the backend quietly while letting external noise pass unheeded until timing converges naturally.",
+    philosopher: "Pragmatic Systems Daoism"
+  }
+];
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Game of Life | Adaptive Strategies">
+    <main class="container py-10">
+        
+        <!-- Hero Section -->
+        <section class="bg-white rounded-xl p-8 mb-10 shadow-sm border-l-8 border-green-800">
+            <h1 class="text-3xl font-extrabold text-green-900 mb-3">Adaptive Strategies for Everyone</h1>
+            <p class="text-gray-700 text-lg max-w-3xl">
+				Describe <strong>how you feel</strong> in plain language below. Our engine maps your narrative through a 64-state system to uncover your <strong>Current Situation</strong>, reveal the <strong>Underlying Dynamic</strong>, and recommend the right <strong>Adaptive Strategy</strong> for your next move.
+			</p>
+			<br/>
+			<p>
+				Work in progress...
+			</p>
+        </section>
+
+        <!-- Interactive Deck Grid -->
+        <div class="deck-grid">
+            {strategyCards.map((card) => (
+                <div class="card-scene" onclick="this.querySelector('.card-object').classList.toggle('is-flipped')">
+                    <div class="card-object">
+                        
+                        <!-- Front Face: Current Situation -->
+                        <div class="card-face card-front">
+                            <div>
+                                <span class="card-badge mb-3">{card.category}</span>
+                                <h3 class="text-xl font-bold text-gray-900 mb-3">
+                                    <i class="fa-solid fa-chess-knight text-amber-800 mr-2"></i> {card.title}
+                                </h3>
+                                <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                                    <strong>Current Situation:</strong> {card.situation}
+                                </p>
+                            </div>
+                            <div class="flex items-center justify-between text-xs text-green-800 font-bold uppercase tracking-wider border-t pt-3">
+                                <span>Click to Flip Card</span>
+                                <i class="fa-solid fa-rotate text-sm"></i>
+                            </div>
+                        </div>
+
+                        <!-- Back Face: Underlying Dynamic & Adaptive Strategy -->
+                        <div class="card-face card-back">
+                            <div>
+                                <span class="card-badge mb-2">{card.philosopher}</span>
+                                <p class="text-amber-200 text-xs leading-relaxed mb-3">
+                                    {card.dynamic}
+                                </p>
+                                <div class="strategy-box">
+                                    <p class="text-gray-100 text-xs leading-relaxed">
+                                        <strong>Move:</strong> {card.strategy}
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between text-xs text-amber-400 font-bold uppercase tracking-wider border-t border-gray-700 pt-3">
+                                <span>Flip Back</span>
+                                <i class="fa-solid fa-rotate text-sm"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            ))}
+        </div>
+
+    </main>
+</Layout>

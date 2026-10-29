@@ -1,0 +1,209 @@
+:root {
+    --color-primary: #14532d;      /* Deep Forest Green */
+    --color-secondary: #6b4226;    /* Warm Earth Brown */
+    --color-background: #f3f0e6;   /* Cream Sand Warm Gray */
+    --color-text: #1a1a1a;         /* Soft Charcoal */
+    --color-light-accent: #ffffff; /* Crisp White */
+    --color-border: #e2ddd0;       /* Subtle Neutral Border */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    color: var(--color-primary);
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: var(--color-secondary);
+}
+
+/* Header */
+header {
+    background: var(--color-text);
+    color: var(--color-light-accent);
+    border-bottom: 5px solid var(--color-secondary);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+header .header-container {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0.85rem 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.brand-logo {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--color-light-accent);
+    line-height: 1;
+}
+
+.brand-badge {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: var(--color-light-accent);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.brand-badge img {
+    width: 65%;
+    height: 65%;
+    object-fit: contain;
+    display: block;
+}
+
+/* Card Flip Mechanics */
+.deck-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.card-scene {
+    perspective: 1000px;
+    width: 100%;
+    height: 420px;
+}
+
+.card-object {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+    cursor: pointer;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    border-radius: 12px;
+}
+
+.card-object.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 12px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid var(--color-border);
+}
+
+.card-front {
+    background: var(--color-light-accent);
+    border-top: 6px solid var(--color-primary);
+}
+
+.card-back {
+    background: #262220;
+    color: #f3f0e6;
+    transform: rotateY(180deg);
+    border-top: 6px solid var(--color-secondary);
+}
+
+.card-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.2rem 0.6rem;
+    border-radius: 50px;
+    background: rgba(20, 83, 45, 0.1);
+    color: var(--color-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    width: fit-content;
+}
+
+.card-back .card-badge {
+    background: rgba(107, 66, 38, 0.2);
+    color: #d4a373;
+}
+
+.strategy-box {
+    background: rgba(255,255,255,0.05);
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    border-left: 3px solid var(--color-secondary);
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.cta-button {
+    background: var(--color-primary);
+    color: var(--color-light-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    border-radius: 6px;
+    padding: 0.85rem 1.75rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0 4px 10px rgba(20, 83, 45, 0.25);
+    cursor: pointer;
+    border: none;
+}
+
+.cta-button:hover {
+    background: var(--color-secondary);
+    color: var(--color-light-accent);
+    transform: translateY(-2px);
+}
+
+footer {
+    background: var(--color-text);
+    color: var(--color-light-accent);
+    text-align: center;
+    margin-top: auto;
+    padding: 1.5rem 0;
+    font-size: 0.9rem;
+    border-top: 3px solid var(--color-secondary);
+}
