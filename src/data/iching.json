@@ -1,0 +1,1291 @@
+{
+  "hexagrams": [
+    {
+      "number": 1,
+      "name": "乾",
+      "pinyin": "Qián",
+      "english": "The Creative",
+      "upperTrigram": "乾",
+      "lowerTrigram": "乾",
+      "binary": "111111",
+      "judgment": "元亨利贞。",
+      "judgmentEn": "The Creative works sublime success, furthering through perseverance.",
+      "image": "天行健，君子以自强不息。",
+      "lines": [
+        { "position": 1, "text": "潜龙勿用。", "textEn": "Hidden dragon. Do not act." },
+        { "position": 2, "text": "见龙在田，利见大人。", "textEn": "The dragon appears in the field. It furthers one to see the great man." },
+        { "position": 3, "text": "君子终日乾乾，夕惕若厉，无咎。", "textEn": "The superior man is vigilant all day and cautious at night. Danger, but no blame." },
+        { "position": 4, "text": "或跃在渊，无咎。", "textEn": "Wavering flight over the depths. No blame." },
+        { "position": 5, "text": "飞龙在天，利见大人。", "textEn": "Flying dragon in the heavens. It furthers one to see the great man." },
+        { "position": 6, "text": "亢龙有悔。", "textEn": "Arrogant dragon will have cause to repent." }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "坤",
+      "pinyin": "Kūn",
+      "english": "The Receptive",
+      "upperTrigram": "坤",
+      "lowerTrigram": "坤",
+      "binary": "000000",
+      "judgment": "元亨，利牝马之贞。君子有攸往，先迷后得主，利。西南得朋，东北丧朋。安贞吉。",
+      "judgmentEn": "Sublime success through the perseverance of a mare. The superior man has somewhere to go; at first he goes astray, but afterward he finds his master. It furthers one to gain friends in the southwest and to lose friends in the northeast. Quiet perseverance brings good fortune.",
+      "image": "地势坤，君子以厚德载物。",
+      "lines": [
+        { "position": 1, "text": "履霜，坚冰至。", "textEn": "He treads on hoarfrost; the solid ice will come." },
+        { "position": 2, "text": "直方大，不习无不利。", "textEn": "Straight, square, great. Without training, nothing is unfavorable." },
+        { "position": 3, "text": "含章可贞，或从王事，无成有终。", "textEn": "Hidden brilliance, one may persevere. If one serves the king's affairs, one seeks no merit but brings things to completion." },
+        { "position": 4, "text": "括囊，无咎无誉。", "textEn": "A tightly closed sack. No blame, no praise." },
+        { "position": 5, "text": "黄裳，元吉。", "textEn": "A yellow lower garment. Supreme good fortune." },
+        { "position": 6, "text": "龙战于野，其血玄黄。", "textEn": "Dragons fight in the meadow. Their blood is dark purple and yellow." }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "屯",
+      "pinyin": "Zhūn",
+      "english": "Difficulty at the Beginning",
+      "upperTrigram": "坎",
+      "lowerTrigram": "震",
+      "binary": "100010",
+      "judgment": "元亨利贞，勿用有攸往，利建侯。",
+      "judgmentEn": "Sublime success, furthering through perseverance. Do not undertake anything. It furthers one to appoint helpers.",
+      "image": "云雷，屯；君子以经纶。",
+      "lines": [
+        { "position": 1, "text": "磐桓，利居贞，利建侯。", "textEn": "Hesitation and hindrance. It furthers one to remain persevering and to appoint helpers." },
+        { "position": 2, "text": "屯如邅如，乘马班如。匪寇婚媾，女子贞不字，十年乃字。", "textEn": "Difficulties and obstructions. He rides a horse that falters. He is not a robber but sues for marriage. The maiden is chaste and does not pledge herself; after ten years she pledges herself." },
+        { "position": 3, "text": "即鹿无虞，惟入于林中，君子几不如舍，往吝。", "textEn": "Whoever hunts deer without the forester only loses his way in the forest. The superior man understands the signs and prefers to desist; to go on brings humiliation." },
+        { "position": 4, "text": "乘马班如，求婚媾，往吉，无不利。", "textEn": "Horse and wagon part. He sues for marriage. Going brings good fortune; nothing is unfavorable." },
+        { "position": 5, "text": "屯其膏，小贞吉，大贞凶。", "textEn": "Difficulties in blessing. A little perseverance brings good fortune; great perseverance brings misfortune." },
+        { "position": 6, "text": "乘马班如，泣血涟如。", "textEn": "Horse and wagon part. Bloody tears flow in streams." }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "蒙",
+      "pinyin": "Méng",
+      "english": "Youthful Folly",
+      "upperTrigram": "艮",
+      "lowerTrigram": "坎",
+      "binary": "010001",
+      "judgment": "亨。匪我求童蒙，童蒙求我。初筮告，再三渎，渎则不告。利贞。",
+      "judgmentEn": "Success. I do not seek the young fool; the young fool seeks me. The first divination reveals; the second and third confuse. If it confuses, I do not tell. It furthers one to persevere.",
+      "image": "山下出泉，蒙；君子以果行育德。",
+      "lines": [
+        { "position": 1, "text": "发蒙，利用刑人，用说桎梏，以往吝。", "textEn": "To make a fool develop, it furthers one to apply discipline. The fetters should be removed; to go on in this way brings humiliation." },
+        { "position": 2, "text": "包蒙吉，纳妇吉，子克家。", "textEn": "To bear with fools in kindliness brings good fortune. To know how to take a wife brings good fortune. The son is capable of taking charge of the household." },
+        { "position": 3, "text": "勿用取女，见金夫，不有躬，无攸利。", "textEn": "Take not a maiden who, when she sees a man of bronze, loses possession of herself. Nothing furthers." },
+        { "position": 4, "text": "困蒙，吝。", "textEn": "Entangled folly brings humiliation." },
+        { "position": 5, "text": "童蒙，吉。", "textEn": "Childlike folly brings good fortune." },
+        { "position": 6, "text": "击蒙，不利为寇，利御寇。", "textEn": "In punishing folly it does not further one to commit transgressions; the only thing that furthers is to prevent transgressions." }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "需",
+      "pinyin": "Xū",
+      "english": "Waiting",
+      "upperTrigram": "坎",
+      "lowerTrigram": "乾",
+      "binary": "111010",
+      "judgment": "有孚，光亨，贞吉。利涉大川。",
+      "judgmentEn": "Waiting. If you are sincere, you have light and success. Perseverance brings good fortune. It furthers one to cross the great water.",
+      "image": "云上于天，需；君子以饮食宴乐。",
+      "lines": [
+        { "position": 1, "text": "需于郊，利用恒，无咎。", "textEn": "Waiting in the meadow. It furthers one to abide in what is lasting. No blame." },
+        { "position": 2, "text": "需于沙，小有言，终吉。", "textEn": "Waiting on the sand. There is some gossip. The end brings good fortune." },
+        { "position": 3, "text": "需于泥，致寇至。", "textEn": "Waiting in the mud brings about the arrival of the enemy." },
+        { "position": 4, "text": "需于血，出自穴。", "textEn": "Waiting in blood. Get out of the pit." },
+        { "position": 5, "text": "需于酒食，贞吉。", "textEn": "Waiting at meat and drink. Perseverance brings good fortune." },
+        { "position": 6, "text": "入于穴，有不速之客三人来，敬之终吉。", "textEn": "One falls into the pit. Three uninvited guests arrive. Honor them, and in the end there will be good fortune." }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "讼",
+      "pinyin": "Sòng",
+      "english": "Conflict",
+      "upperTrigram": "乾",
+      "lowerTrigram": "坎",
+      "binary": "010111",
+      "judgment": "有孚，窒惕，中吉，终凶。利见大人，不利涉大川。",
+      "judgmentEn": "Conflict. You are sincere, yet obstructed. A cautious halt halfway brings good fortune; going through to the end brings misfortune. It furthers one to see the great man; it does not further one to cross the great water.",
+      "image": "天与水违行，讼；君子以作事谋始。",
+      "lines": [
+        { "position": 1, "text": "不永所事，小有言，终吉。", "textEn": "If one does not perpetuate the matter about which one is in conflict, there will be a little gossip, but in the end there is good fortune." },
+        { "position": 2, "text": "不克讼，归而逋，其邑人三百户，无眚。", "textEn": "One cannot engage in conflict; one returns home and gives way. The people of his town, three hundred households, remain free of guilt." },
+        { "position": 3, "text": "食旧德，贞厉，终吉。或从王事，无成。", "textEn": "To nourish oneself on ancient virtue induces perseverance. Danger, but in the end good fortune. If one is in the service of a king, one must not seek works." },
+        { "position": 4, "text": "不克讼，复即命，渝，安贞吉。", "textEn": "One cannot engage in conflict; one turns back and submits to fate. Change of mind brings peace. To remain persevering brings good fortune." },
+        { "position": 5, "text": "讼，元吉。", "textEn": "To contend before him brings supreme good fortune." },
+        { "position": 6, "text": "或锡之鞶带，终朝三褫之。", "textEn": "Even if by chance a leather belt is bestowed upon one, by the end of a morning it will have been snatched away three times." }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "师",
+      "pinyin": "Shī",
+      "english": "The Army",
+      "upperTrigram": "坤",
+      "lowerTrigram": "坎",
+      "binary": "010000",
+      "judgment": "贞，丈人吉，无咎。",
+      "judgmentEn": "The Army. Perseverance. A strong man brings good fortune. No blame.",
+      "image": "地中有水，师；君子以容民畜众。",
+      "lines": [
+        { "position": 1, "text": "师出以律，否臧凶。", "textEn": "An army must set forth in proper order. If the order is not good, misfortune threatens." },
+        { "position": 2, "text": "在师中吉，无咎，王三锡命。", "textEn": "In the midst of the army. Good fortune. No blame. The king bestows a triple decoration." },
+        { "position": 3, "text": "师或舆尸，凶。", "textEn": "The army carries corpses in the wagon. Misfortune." },
+        { "position": 4, "text": "师左次，无咎。", "textEn": "The army retreats and encamps on the left. No blame." },
+        { "position": 5, "text": "田有禽，利执言，无咎。长子帅师，弟子舆尸，贞凶。", "textEn": "There is game in the field. It furthers one to catch it. Without blame. Let the eldest lead the army; if the younger also carries corpses in the wagon, perseverance brings misfortune." },
+        { "position": 6, "text": "大君有命，开国承家，小人勿用。", "textEn": "The great prince issues commands, founds states, and invests families with fiefs. Inferior people must not be employed." }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "比",
+      "pinyin": "Bǐ",
+      "english": "Holding Together",
+      "upperTrigram": "坎",
+      "lowerTrigram": "坤",
+      "binary": "000010",
+      "judgment": "吉。原筮，元永贞，无咎。不宁方来，后夫凶。",
+      "judgmentEn": "Holding Together brings good fortune. Inquire of the oracle once again whether you possess sublimity, constancy, and perseverance; then there is no blame. Those who are uncertain gradually join. Whoever comes too late meets with misfortune.",
+      "image": "地上有水，比；先王以建万国，亲诸侯。",
+      "lines": [
+        { "position": 1, "text": "有孚比之，无咎。有孚盈缶，终来有他吉。", "textEn": "Hold to him in truth and loyalty; this is without blame. Truth, like a full earthen bowl: thus in the end good fortune comes from without." },
+        { "position": 2, "text": "比之自内，贞吉。", "textEn": "Hold to him inwardly. Perseverance brings good fortune." },
+        { "position": 3, "text": "比之匪人。", "textEn": "You hold together with the wrong people." },
+        { "position": 4, "text": "外比之，贞吉。", "textEn": "Hold to him outwardly also. Perseverance brings good fortune." },
+        { "position": 5, "text": "显比，王用三驱，失前禽，邑人不诫，吉。", "textEn": "Manifestation of holding together. In the hunt the king uses beaters on three sides only and forgoes the game that escapes before him. The citizens need not be warned. Good fortune." },
+        { "position": 6, "text": "比之无首，凶。", "textEn": "He finds no head for holding together. Misfortune." }
+      ]
+    }
+,
+    {
+      "number": 9,
+      "name": "小畜",
+      "pinyin": "Xiǎo Chù",
+      "english": "The Taming Power of the Small",
+      "upperTrigram": "巽",
+      "lowerTrigram": "乾",
+      "binary": "111011",
+      "judgment": "亨。密云不雨，自我西郊。",
+      "judgmentEn": "The Taming Power of the Small. Success. Dense clouds, no rain from our western region.",
+      "image": "风行天上，小畜；君子以懿文德。",
+      "lines": [
+        { "position": 1, "text": "复自道，何其咎，吉。", "textEn": "Returning to the way. How could there be blame? Good fortune." },
+        { "position": 2, "text": "牵复，吉。", "textEn": "Led back by the hand. Good fortune." },
+        { "position": 3, "text": "舆说辐，夫妻反目。", "textEn": "The wagon's spokes break apart. Man and wife look at each other with anger." },
+        { "position": 4, "text": "有孚，血去惕出，无咎。", "textEn": "If you are sincere, blood vanishes and fear gives way. No blame." },
+        { "position": 5, "text": "有孚挛如，富以其邻。", "textEn": "If you are sincere and loyally attached, you are rich in your neighbor." },
+        { "position": 6, "text": "既雨既处，尚德载，妇贞厉。月几望，君子征凶。", "textEn": "The rain comes, the time of rest comes. Virtue is honored and carried. The perseverance of the woman is dangerous. The moon is nearly full. If the superior man goes on, misfortune." }
+      ]
+    },
+    {
+      "number": 10,
+      "name": "履",
+      "pinyin": "Lǚ",
+      "english": "Treading",
+      "upperTrigram": "乾",
+      "lowerTrigram": "兑",
+      "binary": "110111",
+      "judgment": "履虎尾，不咥人，亨。",
+      "judgmentEn": "Treading upon the tail of the tiger. It does not bite the man. Success.",
+      "image": "上天下泽，履；君子以辨上下，定民志。",
+      "lines": [
+        { "position": 1, "text": "素履，往无咎。", "textEn": "Simple conduct. Progress without blame." },
+        { "position": 2, "text": "履道坦坦，幽人贞吉。", "textEn": "Treading a smooth, level course. The perseverance of a solitary man brings good fortune." },
+        { "position": 3, "text": "眇能视，跛能履，履虎尾，咥人，凶。武人为于大君。", "textEn": "A one-eyed man is able to see, a lame man is able to tread. He treads on the tail of the tiger; the tiger bites the man. Misfortune. Thus does a warrior act on behalf of his great prince." },
+        { "position": 4, "text": "履虎尾，愬愬终吉。", "textEn": "He treads on the tail of the tiger. Caution and circumspection lead at length to good fortune." },
+        { "position": 5, "text": "夬履，贞厉。", "textEn": "Resolute conduct. Perseverance with awareness of danger." },
+        { "position": 6, "text": "视履考祥，其旋元吉。", "textEn": "Look to your conduct and weigh the favorable signs. When everything is fulfilled, supreme good fortune comes." }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "泰",
+      "pinyin": "Tài",
+      "english": "Peace",
+      "upperTrigram": "坤",
+      "lowerTrigram": "乾",
+      "binary": "111000",
+      "judgment": "小往大来，吉亨。",
+      "judgmentEn": "Peace. The small departs, the great approaches. Good fortune. Success.",
+      "image": "天地交，泰；后以财成天地之道，辅相天地之宜，以左右民。",
+      "lines": [
+        { "position": 1, "text": "拔茅茹，以其汇，征吉。", "textEn": "When ribbon grass is pulled up, the sod comes with it. Each according to his kind. Undertakings bring good fortune." },
+        { "position": 2, "text": "包荒，用冯河，不遐遗，朋亡，得尚于中行。", "textEn": "Bearing with the uncultured, crossing the river, not neglecting what is distant, not gathering partisans: thus one may walk in the middle way." },
+        { "position": 3, "text": "无平不陂，无往不复，艰贞无咎。勿恤其孚，于食有福。", "textEn": "No plain not followed by a slope. No going not followed by a return. He who remains persevering in danger is without blame. Do not complain of this truth; enjoy the good fortune you still possess." },
+        { "position": 4, "text": "翩翩，不富以其邻，不戒以孚。", "textEn": "He flutters downward, not rich in himself, yet sincere with his neighbor, without need of warning." },
+        { "position": 5, "text": "帝乙归妹，以祉元吉。", "textEn": "The emperor gives his daughter in marriage. This brings blessing and supreme good fortune." },
+        { "position": 6, "text": "城复于隍，勿用师，自邑告命，贞吝。", "textEn": "The wall falls back into the moat. Do not use the army. Proclaim it from your own city. Perseverance brings humiliation." }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "否",
+      "pinyin": "Pǐ",
+      "english": "Standstill",
+      "upperTrigram": "乾",
+      "lowerTrigram": "坤",
+      "binary": "000111",
+      "judgment": "否之匪人，不利君子贞，大往小来。",
+      "judgmentEn": "Standstill. Evil people do not further the perseverance of the superior man. The great departs; the small approaches.",
+      "image": "天地不交，否；君子以俭德辟难，不可荣以禄。",
+      "lines": [
+        { "position": 1, "text": "拔茅茹，以其汇，贞吉，亨。", "textEn": "When ribbon grass is pulled up, the sod comes with it. Each according to his kind. Perseverance brings good fortune and success." },
+        { "position": 2, "text": "包承，小人吉，大人否，亨。", "textEn": "They bear and endure. This brings good fortune to the inferior man; the great man remains in standstill. Success." },
+        { "position": 3, "text": "包羞。", "textEn": "They bear shame." },
+        { "position": 4, "text": "有命无咎，畴离祉。", "textEn": "He who acts at the command of the highest remains without blame. Those of like mind partake of the blessing." },
+        { "position": 5, "text": "休否，大人吉。其亡其亡，系于苞桑。", "textEn": "Standstill is giving way. Good fortune for the great man. 'What if it should fail, what if it should fail!' In this way he ties it to a cluster of mulberry shoots." },
+        { "position": 6, "text": "倾否，先否后喜。", "textEn": "The standstill comes to an end. First standstill, then joy." }
+      ]
+    },
+    {
+      "number": 13,
+      "name": "同人",
+      "pinyin": "Tóng Rén",
+      "english": "Fellowship with Men",
+      "upperTrigram": "乾",
+      "lowerTrigram": "离",
+      "binary": "101111",
+      "judgment": "同人于野，亨。利涉大川，利君子贞。",
+      "judgmentEn": "Fellowship with Men in the open. Success. It furthers one to cross the great water. The perseverance of the superior man furthers.",
+      "image": "天与火，同人；君子以类族辨物。",
+      "lines": [
+        { "position": 1, "text": "同人于门，无咎。", "textEn": "Fellowship with men at the gate. No blame." },
+        { "position": 2, "text": "同人于宗，吝。", "textEn": "Fellowship with men in the clan. Humiliation." },
+        { "position": 3, "text": "伏戎于莽，升其高陵，三岁不兴。", "textEn": "He hides weapons in the thicket; he climbs the high hill in front of it. For three years he does not rise up." },
+        { "position": 4, "text": "乘其墉，弗克攻，吉。", "textEn": "He climbs up on his wall; he cannot attack. Good fortune." },
+        { "position": 5, "text": "同人，先号咷而后笑，大师克相遇。", "textEn": "Men bound in fellowship first weep and lament, but afterward they laugh. After great struggles they succeed in meeting." },
+        { "position": 6, "text": "同人于郊，无悔。", "textEn": "Fellowship with men in the meadow. No remorse." }
+      ]
+    },
+    {
+      "number": 14,
+      "name": "大有",
+      "pinyin": "Dà Yǒu",
+      "english": "Possession in Great Measure",
+      "upperTrigram": "离",
+      "lowerTrigram": "乾",
+      "binary": "111101",
+      "judgment": "元亨。",
+      "judgmentEn": "Possession in Great Measure. Supreme success.",
+      "image": "火在天上，大有；君子以遏恶扬善，顺天休命。",
+      "lines": [
+        { "position": 1, "text": "无交害，匪咎，艰则无咎。", "textEn": "No relationship with what is harmful; there is no blame. If one remains conscious of difficulty, one remains without blame." },
+        { "position": 2, "text": "大车以载，有攸往，无咎。", "textEn": "A big wagon for loading. One may undertake something. No blame." },
+        { "position": 3, "text": "公用亨于天子，小人弗克。", "textEn": "A prince offers it to the Son of Heaven. A petty man cannot do this." },
+        { "position": 4, "text": "匪其彭，无咎。", "textEn": "He does not display his abundance. No blame." },
+        { "position": 5, "text": "厥孚交如，威如，吉。", "textEn": "He whose truth is accessible, yet dignified, has good fortune." },
+        { "position": 6, "text": "自天佑之，吉无不利。", "textEn": "He is blessed by heaven. Good fortune. Nothing that does not further." }
+      ]
+    },
+    {
+      "number": 15,
+      "name": "谦",
+      "pinyin": "Qiān",
+      "english": "Modesty",
+      "upperTrigram": "坤",
+      "lowerTrigram": "艮",
+      "binary": "001000",
+      "judgment": "亨，君子有终。",
+      "judgmentEn": "Modesty creates success. The superior man carries things through.",
+      "image": "地中有山，谦；君子以裒多益寡，称物平施。",
+      "lines": [
+        { "position": 1, "text": "谦谦君子，用涉大川，吉。", "textEn": "A superior man modest about his modesty may cross the great water. Good fortune." },
+        { "position": 2, "text": "鸣谦，贞吉。", "textEn": "Modesty that comes to expression. Perseverance brings good fortune." },
+        { "position": 3, "text": "劳谦，君子有终，吉。", "textEn": "A superior man of merit and modesty carries things through. Good fortune." },
+        { "position": 4, "text": "无不利，撝谦。", "textEn": "Nothing that does not further; he makes modesty his rule in all things." },
+        { "position": 5, "text": "不富以其邻，利用侵伐，无不利。", "textEn": "He is not rich in himself but shares with his neighbor. It furthers one to undertake military expeditions. Nothing is unfavorable." },
+        { "position": 6, "text": "鸣谦，利用行师，征邑国。", "textEn": "Modesty that comes to expression. It furthers one to set armies marching and to subdue one's own city." }
+      ]
+    },
+    {
+      "number": 16,
+      "name": "豫",
+      "pinyin": "Yù",
+      "english": "Enthusiasm",
+      "upperTrigram": "震",
+      "lowerTrigram": "坤",
+      "binary": "000100",
+      "judgment": "利建侯行师。",
+      "judgmentEn": "Enthusiasm. It furthers one to install helpers and to set armies marching.",
+      "image": "雷出地奋，豫；先王以作乐崇德，殷荐之上帝，以配祖考。",
+      "lines": [
+        { "position": 1, "text": "鸣豫，凶。", "textEn": "Enthusiasm that expresses itself brings misfortune." },
+        { "position": 2, "text": "介于石，不终日，贞吉。", "textEn": "Firm as a rock. Not a whole day. Perseverance brings good fortune." },
+        { "position": 3, "text": "盱豫，悔。迟有悔。", "textEn": "Enthusiasm that looks upward creates remorse. Hesitation brings remorse." },
+        { "position": 4, "text": "由豫，大有得。勿疑，朋盍簪。", "textEn": "The source of enthusiasm. He achieves great things. Doubt not. You gather friends around you as a hair clasp gathers the hair." },
+        { "position": 5, "text": "贞疾，恒不死。", "textEn": "Persistently ill, yet he does not die." },
+        { "position": 6, "text": "冥豫，成有渝，无咎。", "textEn": "Deluded enthusiasm. But if after it is complete there is a change, no blame." }
+      ]
+    }
+,
+    {
+      "number": 17,
+      "name": "随",
+      "pinyin": "Suí",
+      "english": "Following",
+      "upperTrigram": "兑",
+      "lowerTrigram": "震",
+      "binary": "100110",
+      "judgment": "元亨利贞，无咎。",
+      "judgmentEn": "Following has supreme success. Perseverance furthers. No blame.",
+      "image": "泽中有雷，随；君子以向晦入宴息。",
+      "lines": [
+        { "position": 1, "text": "官有渝，贞吉。出门交有功。", "textEn": "The standard is changed. Perseverance brings good fortune. Going out of the door in company brings success." },
+        { "position": 2, "text": "系小子，失丈夫。", "textEn": "If one clings to the little boy, one loses the strong man." },
+        { "position": 3, "text": "系丈夫，失小子。随有求得，利居贞。", "textEn": "If one clings to the strong man, one loses the little boy. Through following one finds what one seeks. It furthers one to remain persevering." },
+        { "position": 4, "text": "随有获，贞凶。有孚在道，以明，何咎。", "textEn": "Following creates success. Perseverance brings misfortune. To remain sincere in the way, and thereby clear, brings no blame." },
+        { "position": 5, "text": "孚于嘉，吉。", "textEn": "Sincere in the good. Good fortune." },
+        { "position": 6, "text": "拘系之，乃从维之。王用亨于西山。", "textEn": "He must be bound and firmly tied. The king offers him at the Western Mountain." }
+      ]
+    },
+    {
+      "number": 18,
+      "name": "蛊",
+      "pinyin": "Gǔ",
+      "english": "Work on What Has Been Spoiled",
+      "upperTrigram": "艮",
+      "lowerTrigram": "巽",
+      "binary": "011001",
+      "judgment": "元亨，利涉大川。先甲三日，后甲三日。",
+      "judgmentEn": "Work on What Has Been Spoiled has supreme success. It furthers one to cross the great water. Before the starting point, three days. After the starting point, three days.",
+      "image": "山下有风，蛊；君子以振民育德。",
+      "lines": [
+        { "position": 1, "text": "干父之蛊，有子，考无咎，厉终吉。", "textEn": "Setting right what has been spoiled by the father. If there is a son, no blame falls upon the father. Danger, but in the end good fortune." },
+        { "position": 2, "text": "干母之蛊，不可贞。", "textEn": "Setting right what has been spoiled by the mother. One must not be too persevering." },
+        { "position": 3, "text": "干父之蛊，小有悔，无大咎。", "textEn": "Setting right what has been spoiled by the father. There will be a little remorse, but no great blame." },
+        { "position": 4, "text": "裕父之蛊，往见吝。", "textEn": "Tolerating what has been spoiled by the father. In continuing one sees humiliation." },
+        { "position": 5, "text": "干父之蛊，用誉。", "textEn": "Setting right what has been spoiled by the father. One meets with praise." },
+        { "position": 6, "text": "不事王侯，高尚其事。", "textEn": "He does not serve kings and princes, but sets his own affairs on a higher plane." }
+      ]
+    },
+    {
+      "number": 19,
+      "name": "临",
+      "pinyin": "Lín",
+      "english": "Approach",
+      "upperTrigram": "坤",
+      "lowerTrigram": "兑",
+      "binary": "110000",
+      "judgment": "元亨利贞。至于八月有凶。",
+      "judgmentEn": "Approach has supreme success. Perseverance furthers. When the eighth month comes, there will be misfortune.",
+      "image": "泽上有地，临；君子以教思无穷，容保民无疆。",
+      "lines": [
+        { "position": 1, "text": "咸临，贞吉。", "textEn": "Joint approach. Perseverance brings good fortune." },
+        { "position": 2, "text": "咸临，吉，无不利。", "textEn": "Joint approach. Good fortune. Everything furthers." },
+        { "position": 3, "text": "甘临，无攸利。既忧之，无咎。", "textEn": "Comfortable approach. Nothing that furthers. If one is moved to grieve over it, one becomes free of blame." },
+        { "position": 4, "text": "至临，无咎。", "textEn": "Complete approach. No blame." },
+        { "position": 5, "text": "知临，大君之宜，吉。", "textEn": "Wise approach. This is right for a great prince. Good fortune." },
+        { "position": 6, "text": "敦临，吉，无咎。", "textEn": "Greathearted approach. Good fortune. No blame." }
+      ]
+    },
+    {
+      "number": 20,
+      "name": "观",
+      "pinyin": "Guān",
+      "english": "Contemplation",
+      "upperTrigram": "巽",
+      "lowerTrigram": "坤",
+      "binary": "000011",
+      "judgment": "盥而不荐，有孚颙若。",
+      "judgmentEn": "Contemplation. The ablution has been made, but not yet the offering. Full of trust, they look up to him.",
+      "image": "风行地上，观；先王以省方观民设教。",
+      "lines": [
+        { "position": 1, "text": "童观，小人无咎，君子吝。", "textEn": "Boylike contemplation. For an inferior man, no blame. For a superior man, humiliation." },
+        { "position": 2, "text": "窥观，利女贞。", "textEn": "Contemplation through the crack of the door. Furthering for the perseverance of a woman." },
+        { "position": 3, "text": "观我生，进退。", "textEn": "Contemplation of my life decides the choice between advance and retreat." },
+        { "position": 4, "text": "观国之光，利用宾于王。", "textEn": "Contemplation of the light of the kingdom. It furthers one to exert influence as the guest of a king." },
+        { "position": 5, "text": "观我生，君子无咎。", "textEn": "Contemplation of my life. The superior man is without blame." },
+        { "position": 6, "text": "观其生，君子无咎。", "textEn": "Contemplation of his life. The superior man is without blame." }
+      ]
+    },
+    {
+      "number": 21,
+      "name": "噬嗑",
+      "pinyin": "Shì Kè",
+      "english": "Biting Through",
+      "upperTrigram": "离",
+      "lowerTrigram": "震",
+      "binary": "100101",
+      "judgment": "亨。利用狱。",
+      "judgmentEn": "Biting Through has success. It is favorable to let justice be administered.",
+      "image": "雷电，噬嗑；先王以明罚敕法。",
+      "lines": [
+        { "position": 1, "text": "屦校灭趾，无咎。", "textEn": "His feet are fastened in the stocks, so that his toes disappear. No blame." },
+        { "position": 2, "text": "噬肤灭鼻，无咎。", "textEn": "Bites through tender meat, so that his nose disappears. No blame." },
+        { "position": 3, "text": "噬腊肉，遇毒；小吝，无咎。", "textEn": "Bites on old dried meat and strikes on something poisonous. Slight humiliation. No blame." },
+        { "position": 4, "text": "噬乾胏，得金矢，利艰贞，吉。", "textEn": "Bites on dried gristly meat. Receives metal arrows. It furthers one to be mindful of difficulties and to be persevering. Good fortune." },
+        { "position": 5, "text": "噬乾肉，得黄金，贞厉，无咎。", "textEn": "Bites on dried lean meat. Receives yellow gold. Perseveringly aware of danger. No blame." },
+        { "position": 6, "text": "何校灭耳，凶。", "textEn": "His neck is fastened in the wooden cangue, so that his ears disappear. Misfortune." }
+      ]
+    },
+    {
+      "number": 22,
+      "name": "贲",
+      "pinyin": "Bì",
+      "english": "Grace",
+      "upperTrigram": "艮",
+      "lowerTrigram": "离",
+      "binary": "101001",
+      "judgment": "亨。小利有攸往。",
+      "judgmentEn": "Grace has success. In small matters it is favorable to undertake something.",
+      "image": "山下有火，贲；君子以明庶政，无敢折狱。",
+      "lines": [
+        { "position": 1, "text": "贲其趾，舍车而徒。", "textEn": "He adorns his toes, leaves the carriage, and walks on foot." },
+        { "position": 2, "text": "贲其须。", "textEn": "He adorns his beard." },
+        { "position": 3, "text": "贲如濡如，永贞吉。", "textEn": "Adorned and moist with grace. Eternal perseverance brings good fortune." },
+        { "position": 4, "text": "贲如皤如，白马翰如，匪寇婚媾。", "textEn": "Adorned and white as snow. A white horse with wings. It is not a robber but sues for marriage." },
+        { "position": 5, "text": "贲于丘园，束帛戋戋，吝，终吉。", "textEn": "Adorns the hillside. A bundle of silk, meager and small. Humiliation, but in the end good fortune." },
+        { "position": 6, "text": "白贲，无咎。", "textEn": "Simple grace. No blame." }
+      ]
+    },
+    {
+      "number": 23,
+      "name": "剥",
+      "pinyin": "Bō",
+      "english": "Splitting Apart",
+      "upperTrigram": "艮",
+      "lowerTrigram": "坤",
+      "binary": "000001",
+      "judgment": "不利有攸往。",
+      "judgmentEn": "Splitting Apart. It does not further one to go anywhere.",
+      "image": "山附于地，剥；上以厚下安宅。",
+      "lines": [
+        { "position": 1, "text": "剥床以足，蔑贞凶。", "textEn": "The leg of the bed is split. Those who persevere are destroyed. Misfortune." },
+        { "position": 2, "text": "剥床以辨，蔑贞凶。", "textEn": "The bed is split at the edge. Those who persevere are destroyed. Misfortune." },
+        { "position": 3, "text": "剥之，无咎。", "textEn": "He splits with them. No blame." },
+        { "position": 4, "text": "剥床以肤，凶。", "textEn": "The bed is split up to the skin. Misfortune." },
+        { "position": 5, "text": "贯鱼，以宫人宠，无不利。", "textEn": "A shoal of fishes. Favor comes through the court ladies. Everything acts to further." },
+        { "position": 6, "text": "硕果不食，君子得舆，小人剥庐。", "textEn": "There is a large fruit still uneaten. The superior man receives a carriage. The house of the inferior man is split apart." }
+      ]
+    },
+    {
+      "number": 24,
+      "name": "复",
+      "pinyin": "Fù",
+      "english": "Return",
+      "upperTrigram": "坤",
+      "lowerTrigram": "震",
+      "binary": "100000",
+      "judgment": "亨。出入无疾，朋来无咎。反复其道，七日来复，利有攸往。",
+      "judgmentEn": "Return. Success. Going out and coming in without error. Friends come without blame. To and fro goes the way. On the seventh day comes return. It furthers one to have somewhere to go.",
+      "image": "雷在地中，复；先王以至日闭关，商旅不行，后不省方。",
+      "lines": [
+        { "position": 1, "text": "不远复，无祗悔，元吉。", "textEn": "Return from a short distance. No need for remorse. Great good fortune." },
+        { "position": 2, "text": "休复，吉。", "textEn": "Quiet return. Good fortune." },
+        { "position": 3, "text": "频复，厉无咎。", "textEn": "Repeated return. Danger. No blame." },
+        { "position": 4, "text": "中行独复。", "textEn": "Walking in the middle of the crowd, one returns alone." },
+        { "position": 5, "text": "敦复，无悔。", "textEn": "Sincere return. No remorse." },
+        { "position": 6, "text": "迷复，凶，有灾眚。用行师，终有大败，以其国君凶，至于十年不克征。", "textEn": "Missing the return. Misfortune, disaster from within and without. If armies are set marching in this way, one will in the end suffer a great defeat, disastrous for the ruler of the country. For ten years it will not be possible to attack." }
+      ]
+    }
+,
+    {
+      "number": 25,
+      "name": "无妄",
+      "pinyin": "Wú Wàng",
+      "english": "Innocence",
+      "upperTrigram": "乾",
+      "lowerTrigram": "震",
+      "binary": "100111",
+      "judgment": "元亨利贞。其匪正有眚，不利有攸往。",
+      "judgmentEn": "Innocence. Supreme success. Perseverance furthers. If someone is not as he should be, he has misfortune, and it does not further him to undertake anything.",
+      "image": "天下雷行，物与无妄；先王以茂对时育万物。",
+      "lines": [
+        { "position": 1, "text": "无妄，往吉。", "textEn": "Innocent behavior. Going brings good fortune." },
+        { "position": 2, "text": "不耕获，不菑畲，则利有攸往。", "textEn": "If one does not plow in order to reap, nor clear land in order to harvest, then it furthers one to undertake something." },
+        { "position": 3, "text": "无妄之灾，或系之牛，行人之得，邑人之灾。", "textEn": "Undeserved misfortune. The cow that was tethered by someone is the wanderer's gain, the citizen's loss." },
+        { "position": 4, "text": "可贞，无咎。", "textEn": "He who can be persevering remains without blame." },
+        { "position": 5, "text": "无妄之疾，勿药有喜。", "textEn": "Use no medicine in an illness incurred in this way. It will pass of itself." },
+        { "position": 6, "text": "无妄，行有眚，无攸利。", "textEn": "Innocent action brings misfortune. Nothing furthers." }
+      ]
+    },
+    {
+      "number": 26,
+      "name": "大畜",
+      "pinyin": "Dà Chù",
+      "english": "The Taming Power of the Great",
+      "upperTrigram": "艮",
+      "lowerTrigram": "乾",
+      "binary": "111001",
+      "judgment": "利贞，不家食吉，利涉大川。",
+      "judgmentEn": "The Taming Power of the Great. Perseverance furthers. Not eating at home brings good fortune. It furthers one to cross the great water.",
+      "image": "天在山中，大畜；君子以多识前言往行，以畜其德。",
+      "lines": [
+        { "position": 1, "text": "有厉利已。", "textEn": "Danger is at hand. It furthers one to desist." },
+        { "position": 2, "text": "舆说輹。", "textEn": "The wagon's axle is loosened." },
+        { "position": 3, "text": "良马逐，利艰贞。曰闲舆卫，利有攸往。", "textEn": "A good horse that follows others. Awareness of danger, with perseverance, furthers. Practice chariot driving and armed defense daily. It furthers one to have somewhere to go." },
+        { "position": 4, "text": "童牛之牿，元吉。", "textEn": "The head of a young bull is fitted with a wooden frame. Supreme good fortune." },
+        { "position": 5, "text": "豮豕之牙，吉。", "textEn": "The tusk of a gelded boar. Good fortune." },
+        { "position": 6, "text": "何天之衢，亨。", "textEn": "One attains the way of heaven. Success." }
+      ]
+    },
+    {
+      "number": 27,
+      "name": "颐",
+      "pinyin": "Yí",
+      "english": "The Corners of the Mouth",
+      "upperTrigram": "艮",
+      "lowerTrigram": "震",
+      "binary": "100001",
+      "judgment": "贞吉。观颐，自求口实。",
+      "judgmentEn": "The Corners of the Mouth. Perseverance brings good fortune. Pay heed to the providing of nourishment and to what a man seeks to fill his own mouth with.",
+      "image": "山下有雷，颐；君子以慎言语，节饮食。",
+      "lines": [
+        { "position": 1, "text": "舍尔灵龟，观我朵颐，凶。", "textEn": "You let your magic tortoise go and look at me with the corners of your mouth drooping. Misfortune." },
+        { "position": 2, "text": "颠颐，拂经，于丘颐，征凶。", "textEn": "Turning to the summit for nourishment, deviating from the path of nourishment by seeking it on a height. To go on brings misfortune." },
+        { "position": 3, "text": "拂颐，贞凶，十年勿用，无攸利。", "textEn": "Turning away from nourishment. Perseverance brings misfortune. Do not act for ten years. Nothing furthers." },
+        { "position": 4, "text": "颠颐吉，虎视眈眈，其欲逐逐，无咎。", "textEn": "Turning to the summit for the provision of nourishment brings good fortune. Squinting like a tiger with insatiable desire. No blame." },
+        { "position": 5, "text": "拂经，居贞吉，不可涉大川。", "textEn": "Deviation from the path. To remain persevering brings good fortune. One should not cross the great water." },
+        { "position": 6, "text": "由颐，厉吉，利涉大川。", "textEn": "The source of nourishment. Awareness of danger brings good fortune. It furthers one to cross the great water." }
+      ]
+    },
+    {
+      "number": 28,
+      "name": "大过",
+      "pinyin": "Dà Guò",
+      "english": "Preponderance of the Great",
+      "upperTrigram": "兑",
+      "lowerTrigram": "巽",
+      "binary": "011110",
+      "judgment": "栋桡，利有攸往，亨。",
+      "judgmentEn": "Preponderance of the Great. The ridgepole sags to the breaking point. It furthers one to have somewhere to go. Success.",
+      "image": "泽灭木，大过；君子以独立不惧，遁世无闷。",
+      "lines": [
+        { "position": 1, "text": "藉用白茅，无咎。", "textEn": "To spread white rushes underneath. No blame." },
+        { "position": 2, "text": "枯杨生稊，老夫得其女妻，无不利。", "textEn": "A dry poplar puts forth sprouts. An old man takes a young wife. Everything furthers." },
+        { "position": 3, "text": "栋桡，凶。", "textEn": "The ridgepole sags to the breaking point. Misfortune." },
+        { "position": 4, "text": "栋隆，吉；有它吝。", "textEn": "The ridgepole is braced. Good fortune. If there are ulterior motives, humiliation." },
+        { "position": 5, "text": "枯杨生华，老妇得其士夫，无咎无誉。", "textEn": "A dry poplar puts forth blossoms. An old woman takes a young husband. No blame, no praise." },
+        { "position": 6, "text": "过涉灭顶，凶，无咎。", "textEn": "One must go through the water, which goes over one's head. Misfortune. No blame." }
+      ]
+    },
+    {
+      "number": 29,
+      "name": "坎",
+      "pinyin": "Kǎn",
+      "english": "The Abysmal Water",
+      "upperTrigram": "坎",
+      "lowerTrigram": "坎",
+      "binary": "010010",
+      "judgment": "习坎，有孚，维心亨，行有尚。",
+      "judgmentEn": "The Abysmal repeated. If you are sincere, you have success in your heart, and whatever you do succeeds.",
+      "image": "水洊至，习坎；君子以常德行，习教事。",
+      "lines": [
+        { "position": 1, "text": "习坎，入于坎窞，凶。", "textEn": "Repetition of the Abysmal. In the abyss one falls into a pit. Misfortune." },
+        { "position": 2, "text": "坎有险，求小得。", "textEn": "The abyss is dangerous. One should strive to attain small things only." },
+        { "position": 3, "text": "来之坎坎，险且枕，入于坎窞，勿用。", "textEn": "Forward and backward, abyss on abyss. In danger like this, pause at first and wait, otherwise you will fall into a pit in the abyss. Do not act in this way." },
+        { "position": 4, "text": "樽酒簋贰，用缶，纳约自牖，终无咎。", "textEn": "A jug of wine, a bowl of rice with it; earthen vessels simply handed in through the window. There is certainly no blame in this." },
+        { "position": 5, "text": "坎不盈，祗既平，无咎。", "textEn": "The abyss is not filled to overflowing; it is filled only to the rim. No blame." },
+        { "position": 6, "text": "系用徽纆，寘于丛棘，三岁不得，凶。", "textEn": "Bound with cords and ropes, shut in between thorn hedges. For three years one sees nothing. Misfortune." }
+      ]
+    },
+    {
+      "number": 30,
+      "name": "离",
+      "pinyin": "Lí",
+      "english": "The Clinging Fire",
+      "upperTrigram": "离",
+      "lowerTrigram": "离",
+      "binary": "101101",
+      "judgment": "利贞，亨。畜牝牛，吉。",
+      "judgmentEn": "The Clinging. Perseverance furthers. It brings success. Care of the cow brings good fortune.",
+      "image": "明两作，离；大人以继明照于四方。",
+      "lines": [
+        { "position": 1, "text": "履错然，敬之无咎。", "textEn": "The footprints run crisscross. If one is seriously intent, no blame." },
+        { "position": 2, "text": "黄离，元吉。", "textEn": "Yellow light. Supreme good fortune." },
+        { "position": 3, "text": "日昃之离，不鼓缶而歌，则大耋之嗟，凶。", "textEn": "In the light of the setting sun, men either beat the pot and sing or loudly bewail the approach of old age. Misfortune." },
+        { "position": 4, "text": "突如其来如，焚如，死如，弃如。", "textEn": "Its coming is sudden; it flames up, dies down, is thrown away." },
+        { "position": 5, "text": "出涕沱若，戚嗟若，吉。", "textEn": "Tears in floods, sighing and lamenting. Good fortune." },
+        { "position": 6, "text": "王用出征，有嘉折首，获匪其丑，无咎。", "textEn": "The king uses him to march forth and chastise. Then it is best to kill the leaders and take captive the followers. No blame." }
+      ]
+    },
+    {
+      "number": 31,
+      "name": "咸",
+      "pinyin": "Xián",
+      "english": "Influence",
+      "upperTrigram": "兑",
+      "lowerTrigram": "艮",
+      "binary": "001110",
+      "judgment": "亨，利贞，取女吉。",
+      "judgmentEn": "Influence. Success. Perseverance furthers. To take a maiden to wife brings good fortune.",
+      "image": "山上有泽，咸；君子以虚受人。",
+      "lines": [
+        { "position": 1, "text": "咸其拇。", "textEn": "The influence shows itself in the big toe." },
+        { "position": 2, "text": "咸其腓，凶，居吉。", "textEn": "The influence shows itself in the calves of the legs. Misfortune. Tarrying brings good fortune." },
+        { "position": 3, "text": "咸其股，执其随，往吝。", "textEn": "The influence shows itself in the thighs. Holds to that which follows it. To continue brings humiliation." },
+        { "position": 4, "text": "贞吉悔亡，憧憧往来，朋从尔思。", "textEn": "Perseverance brings good fortune. Remorse disappears. If a man is agitated in mind and his thoughts go hither and thither, only those friends on whom he fixes his conscious thoughts will follow." },
+        { "position": 5, "text": "咸其脢，无悔。", "textEn": "The influence shows itself in the back of the neck. No remorse." },
+        { "position": 6, "text": "咸其辅颊舌。", "textEn": "The influence shows itself in the jaws, cheeks, and tongue." }
+      ]
+    },
+    {
+      "number": 32,
+      "name": "恒",
+      "pinyin": "Héng",
+      "english": "Duration",
+      "upperTrigram": "震",
+      "lowerTrigram": "巽",
+      "binary": "011100",
+      "judgment": "亨，无咎，利贞，利有攸往。",
+      "judgmentEn": "Duration. Success. No blame. Perseverance furthers. It furthers one to have somewhere to go.",
+      "image": "雷风，恒；君子以立不易方。",
+      "lines": [
+        { "position": 1, "text": "浚恒，贞凶，无攸利。", "textEn": "Seeking duration too hastily brings misfortune persistently. Nothing that would further." },
+        { "position": 2, "text": "悔亡。", "textEn": "Remorse disappears." },
+        { "position": 3, "text": "不恒其德，或承之羞，贞吝。", "textEn": "He who does not give duration to his character meets with disgrace. Persistent humiliation." },
+        { "position": 4, "text": "田无禽。", "textEn": "No game in the field." },
+        { "position": 5, "text": "恒其德，贞，妇人吉，夫子凶。", "textEn": "Giving duration to one's character through perseverance. In the case of a woman it brings good fortune; in the case of a man it brings misfortune." },
+        { "position": 6, "text": "振恒，凶。", "textEn": "Restlessness as an enduring condition brings misfortune." }
+      ]
+    }
+,
+    {
+      "number": 33,
+      "name": "遁",
+      "pinyin": "Dùn",
+      "english": "Retreat",
+      "upperTrigram": "乾",
+      "lowerTrigram": "艮",
+      "binary": "001111",
+      "judgment": "亨，小利贞。",
+      "judgmentEn": "Retreat. Success. In what is small, perseverance furthers.",
+      "image": "天下有山，遁；君子以远小人，不恶而严。",
+      "lines": [
+        { "position": 1, "text": "遁尾，厉，勿用有攸往。", "textEn": "At the tail in retreat. This is dangerous. One must not wish to undertake anything." },
+        { "position": 2, "text": "执之用黄牛之革，莫之胜说。", "textEn": "He holds him fast with yellow cowhide, from which nothing can tear him loose." },
+        { "position": 3, "text": "系遁，有疾厉，畜臣妾吉。", "textEn": "A halted retreat is nerve-racking and dangerous. To retain people as men- and maidservants brings good fortune." },
+        { "position": 4, "text": "好遁，君子吉，小人否。", "textEn": "Voluntary retreat brings good fortune to the superior man and downfall to the inferior man." },
+        { "position": 5, "text": "嘉遁，贞吉。", "textEn": "Friendly retreat. Perseverance brings good fortune." },
+        { "position": 6, "text": "肥遁，无不利。", "textEn": "Cheerful retreat. Everything serves to further." }
+      ]
+    },
+    {
+      "number": 34,
+      "name": "大壮",
+      "pinyin": "Dà Zhuàng",
+      "english": "The Power of the Great",
+      "upperTrigram": "震",
+      "lowerTrigram": "乾",
+      "binary": "111100",
+      "judgment": "利贞。",
+      "judgmentEn": "The Power of the Great. Perseverance furthers.",
+      "image": "雷在天上，大壮；君子以非礼弗履。",
+      "lines": [
+        { "position": 1, "text": "壮于趾，征凶，有孚。", "textEn": "Mighty in the feet. Taking action brings misfortune. This is certain." },
+        { "position": 2, "text": "贞吉。", "textEn": "Perseverance brings good fortune." },
+        { "position": 3, "text": "小人用壮，君子用罔，贞厉。羝羊触藩，羸其角。", "textEn": "The inferior man works through power. The superior man does not act thus. To continue is dangerous. A goat butts against a hedge and gets its horns entangled." },
+        { "position": 4, "text": "贞吉悔亡，藩决不羸，壮于大舆之輹。", "textEn": "Perseverance brings good fortune. Remorse disappears. The hedge opens; there is no entanglement. Power depends upon the axle of a big cart." },
+        { "position": 5, "text": "丧羊于易，无悔。", "textEn": "Loses the goat with ease. No remorse." },
+        { "position": 6, "text": "羝羊触藩，不能退，不能遂，无攸利，艰则吉。", "textEn": "A goat butts against a hedge. It cannot go backward, it cannot go forward. Nothing serves to further. If one notes the difficulty, this brings good fortune." }
+      ]
+    },
+    {
+      "number": 35,
+      "name": "晋",
+      "pinyin": "Jìn",
+      "english": "Progress",
+      "upperTrigram": "离",
+      "lowerTrigram": "坤",
+      "binary": "000101",
+      "judgment": "康侯用锡马蕃庶，昼日三接。",
+      "judgmentEn": "Progress. The powerful prince is honored with horses in large numbers. In a single day he is granted audience three times.",
+      "image": "明出地上，晋；君子以自昭明德。",
+      "lines": [
+        { "position": 1, "text": "晋如，摧如，贞吉。罔孚，裕无咎。", "textEn": "Progressing, but turned back. Perseverance brings good fortune. If one meets with no confidence, one should remain calm. No blame." },
+        { "position": 2, "text": "晋如，愁如，贞吉。受兹介福，于其王母。", "textEn": "Progressing, but in sorrow. Perseverance brings good fortune. Then one obtains great happiness from one's ancestress." },
+        { "position": 3, "text": "众允，悔亡。", "textEn": "All are in accord. Remorse disappears." },
+        { "position": 4, "text": "晋如鼫鼠，贞厉。", "textEn": "Progress like a hamster. Perseverance brings danger." },
+        { "position": 5, "text": "悔亡，失得勿恤，往吉，无不利。", "textEn": "Remorse disappears. Take not gain and loss to heart. Undertakings bring good fortune. Everything serves to further." },
+        { "position": 6, "text": "晋其角，维用伐邑，厉吉无咎，贞吝。", "textEn": "Making progress with the horns is permissible only for the purpose of punishing one's own city. To be conscious of danger brings good fortune. No blame. Perseverance brings humiliation." }
+      ]
+    },
+    {
+      "number": 36,
+      "name": "明夷",
+      "pinyin": "Míng Yí",
+      "english": "Darkening of the Light",
+      "upperTrigram": "坤",
+      "lowerTrigram": "离",
+      "binary": "101000",
+      "judgment": "利艰贞。",
+      "judgmentEn": "Darkening of the Light. It furthers one to be persevering in hardship.",
+      "image": "明入地中，明夷；君子以莅众，用晦而明。",
+      "lines": [
+        { "position": 1, "text": "明夷于飞，垂其翼。君子于行，三日不食，有攸往，主人有言。", "textEn": "Darkening of the light during flight. He lowers his wings. The superior man, on the way out, does not eat for three days. He has somewhere to go, but the host has occasion to gossip about him." },
+        { "position": 2, "text": "明夷，夷于左股，用拯马壮，吉。", "textEn": "Darkening of the light. He is wounded in the left thigh. If he has a strong horse, he is saved. Good fortune." },
+        { "position": 3, "text": "明夷于南狩，得其大首，不可疾贞。", "textEn": "Darkening of the light during the hunt in the south. One captures the great leader of the enemy. One must not be too quick about perseverance." },
+        { "position": 4, "text": "入于左腹，获明夷之心，于出门庭。", "textEn": "He enters into the left side of the belly. He obtains the heart of the darkening of the light, and then goes out from gate and courtyard." },
+        { "position": 5, "text": "箕子之明夷，利贞。", "textEn": "The darkening of the light such as that of the philosopher Ji Zi. Perseverance furthers." },
+        { "position": 6, "text": "不明晦，初登于天，后入于地。", "textEn": "Not light but darkness. First he climbed up to heaven, then he plunged into the depths of the earth." }
+      ]
+    },
+    {
+      "number": 37,
+      "name": "家人",
+      "pinyin": "Jiā Rén",
+      "english": "The Family",
+      "upperTrigram": "巽",
+      "lowerTrigram": "离",
+      "binary": "101011",
+      "judgment": "利女贞。",
+      "judgmentEn": "The Family. The perseverance of the woman furthers.",
+      "image": "风自火出，家人；君子以言有物而行有恒。",
+      "lines": [
+        { "position": 1, "text": "闲有家，悔亡。", "textEn": "Prevention within the family. Remorse disappears." },
+        { "position": 2, "text": "无攸遂，在中馈，贞吉。", "textEn": "She should not follow her whims. She must attend within to the food. Perseverance brings good fortune." },
+        { "position": 3, "text": "家人嗃嗃，悔厉吉；妇子嘻嘻，终吝。", "textEn": "When the family is too stern, remorse and danger, but good fortune. When wife and children jest and laugh, in the end there is humiliation." },
+        { "position": 4, "text": "富家，大吉。", "textEn": "She is the treasure of the house. Great good fortune." },
+        { "position": 5, "text": "王假有家，勿恤，吉。", "textEn": "The king approaches his family. Do not fear. Good fortune." },
+        { "position": 6, "text": "有孚威如，终吉。", "textEn": "His truth inspires trust and dignity. In the end good fortune." }
+      ]
+    },
+    {
+      "number": 38,
+      "name": "睽",
+      "pinyin": "Kuí",
+      "english": "Opposition",
+      "upperTrigram": "离",
+      "lowerTrigram": "兑",
+      "binary": "110101",
+      "judgment": "小事吉。",
+      "judgmentEn": "Opposition. In small matters, good fortune.",
+      "image": "上火下泽，睽；君子以同而异。",
+      "lines": [
+        { "position": 1, "text": "悔亡，丧马勿逐，自复。见恶人，无咎。", "textEn": "Remorse disappears. If you lose your horse, do not run after it; it comes back of its own accord. If you see evil people, no blame." },
+        { "position": 2, "text": "遇主于巷，无咎。", "textEn": "One meets the lord in a narrow lane. No blame." },
+        { "position": 3, "text": "见舆曳，其牛掣，其人天且劓，无初有终。", "textEn": "One sees the wagon dragged back, the oxen halted, a man's hair and nose cut off. Not a good beginning, but a good end." },
+        { "position": 4, "text": "睽孤，遇元夫，交孚，厉无咎。", "textEn": "Isolated through opposition, one meets a like-minded man with whom one can associate in good faith. Despite the danger, no blame." },
+        { "position": 5, "text": "悔亡，厥宗噬肤，往何咎。", "textEn": "Remorse disappears. His clan bites through the skin. If one goes to him, what blame could there be?" },
+        { "position": 6, "text": "睽孤，见豕负涂，载鬼一车，先张之弧，后说之弧，匪寇婚媾，往遇雨则吉。", "textEn": "Isolated through opposition, one sees one's companion as a pig covered with dirt, as a wagon full of ghosts. First one draws a bow against him, then one lays the bow aside. He is not a robber but sues for marriage. If one goes, one meets with rain, and then good fortune comes." }
+      ]
+    },
+    {
+      "number": 39,
+      "name": "蹇",
+      "pinyin": "Jiǎn",
+      "english": "Obstruction",
+      "upperTrigram": "坎",
+      "lowerTrigram": "艮",
+      "binary": "001010",
+      "judgment": "利西南，不利东北。利见大人，贞吉。",
+      "judgmentEn": "Obstruction. The southwest furthers. The northeast does not further. It furthers one to see the great man. Perseverance brings good fortune.",
+      "image": "山上有水，蹇；君子以反身修德。",
+      "lines": [
+        { "position": 1, "text": "往蹇，来誉。", "textEn": "Going leads to obstructions; coming meets with praise." },
+        { "position": 2, "text": "王臣蹇蹇，匪躬之故。", "textEn": "The king's servant is beset by obstruction upon obstruction, but it is not his own fault." },
+        { "position": 3, "text": "往蹇来反。", "textEn": "Going leads to obstructions; hence he comes back." },
+        { "position": 4, "text": "往蹇来连。", "textEn": "Going leads to obstructions; coming leads to connection." },
+        { "position": 5, "text": "大蹇朋来。", "textEn": "In the midst of the greatest obstructions, friends come." },
+        { "position": 6, "text": "往蹇来硕，吉，利见大人。", "textEn": "Going leads to obstructions; coming leads to great good fortune. It furthers one to see the great man." }
+      ]
+    },
+    {
+      "number": 40,
+      "name": "解",
+      "pinyin": "Xiè",
+      "english": "Deliverance",
+      "upperTrigram": "震",
+      "lowerTrigram": "坎",
+      "binary": "010100",
+      "judgment": "利西南，无所往，其来复吉。有攸往，夙吉。",
+      "judgmentEn": "Deliverance. The southwest furthers. If there is no longer anything where one has to go, return brings good fortune. If there is still something where one has to go, hastening brings good fortune.",
+      "image": "雷雨作，解；君子以赦过宥罪。",
+      "lines": [
+        { "position": 1, "text": "无咎。", "textEn": "Without blame." },
+        { "position": 2, "text": "田获三狐，得黄矢，贞吉。", "textEn": "One kills three foxes in the field and receives a yellow arrow. Perseverance brings good fortune." },
+        { "position": 3, "text": "负且乘，致寇至，贞吝。", "textEn": "If a man carries a burden on his back and nonetheless rides in a carriage, he thereby encourages robbers to draw near. Perseverance leads to humiliation." },
+        { "position": 4, "text": "解而拇，朋至斯孚。", "textEn": "Deliver yourself from your great toe. Then a companion comes, and there is truth." },
+        { "position": 5, "text": "君子维有解，吉，有孚于小人。", "textEn": "The superior man is delivered from his ties. Good fortune. He has sincerity toward inferior men." },
+        { "position": 6, "text": "公用射隼于高墉之上，获之，无不利。", "textEn": "The prince shoots at a hawk on a high wall. He kills it. Everything serves to further." }
+      ]
+    }
+,
+    {
+      "number": 41,
+      "name": "损",
+      "pinyin": "Sǔn",
+      "english": "Decrease",
+      "upperTrigram": "艮",
+      "lowerTrigram": "兑",
+      "binary": "110001",
+      "judgment": "有孚，元吉，无咎，可贞，利有攸往。曷之用，二簋可用享。",
+      "judgmentEn": "Decrease combined with sincerity brings about supreme good fortune without blame. One may be persevering in this. It furthers one to undertake something. How is this to be carried out? One may use two small bowls for the sacrifice.",
+      "image": "山下有泽，损；君子以惩忿窒欲。",
+      "lines": [
+        { "position": 1, "text": "已事遄往，无咎，酌损之。", "textEn": "Going quickly when one's tasks are finished is without blame. But one must reflect on how much one may decrease others." },
+        { "position": 2, "text": "利贞，征凶，弗损益之。", "textEn": "Perseverance furthers. To undertake anything brings misfortune. Not decreasing, one increases him." },
+        { "position": 3, "text": "三人行，则损一人；一人行，则得其友。", "textEn": "If three people are walking together, they are reduced by one. If one person walks alone, he finds a companion." },
+        { "position": 4, "text": "损其疾，使遄有喜，无咎。", "textEn": "If a man decreases his faults, he makes them pass quickly, and this brings joy. No blame." },
+        { "position": 5, "text": "或益之十朋之龟，弗克违，元吉。", "textEn": "Someone increases him with a tortoise worth ten pairs of shells, which he cannot reject. Supreme good fortune." },
+        { "position": 6, "text": "弗损益之，无咎，贞吉，利有攸往，得臣无家。", "textEn": "Without decreasing, one increases him. No blame. Perseverance brings good fortune. It furthers one to undertake something. One obtains servants but no separate household." }
+      ]
+    },
+    {
+      "number": 42,
+      "name": "益",
+      "pinyin": "Yì",
+      "english": "Increase",
+      "upperTrigram": "巽",
+      "lowerTrigram": "震",
+      "binary": "100011",
+      "judgment": "利有攸往，利涉大川。",
+      "judgmentEn": "Increase. It furthers one to undertake something. It furthers one to cross the great water.",
+      "image": "风雷，益；君子以见善则迁，有过则改。",
+      "lines": [
+        { "position": 1, "text": "利用为大作，元吉，无咎。", "textEn": "It furthers one to accomplish great works. Supreme good fortune. No blame." },
+        { "position": 2, "text": "或益之十朋之龟，弗克违，永贞吉。王用享于帝，吉。", "textEn": "Someone increases him with a tortoise worth ten pairs of shells, which he cannot reject. Eternal perseverance brings good fortune. The king uses him to sacrifice to God. Good fortune." },
+        { "position": 3, "text": "益之用凶事，无咎。有孚中行，告公用圭。", "textEn": "One uses the time of misfortune to be increased. No blame. If one is sincere and walks the middle path, one should report to the prince with a jade tablet." },
+        { "position": 4, "text": "中行，告公从，利用为依迁国。", "textEn": "If one walks in the middle path and reports to the prince, he will follow. It furthers one to be relied on in moving the capital." },
+        { "position": 5, "text": "有孚惠心，勿问元吉。有孚惠我德。", "textEn": "If in truth you have a kind heart, ask not. Supreme good fortune. Truly, kindness will be recognized as your virtue." },
+        { "position": 6, "text": "莫益之，或击之，立心勿恒，凶。", "textEn": "No one increases him; someone strikes him. He does not keep his heart constant. Misfortune." }
+      ]
+    },
+    {
+      "number": 43,
+      "name": "夬",
+      "pinyin": "Guài",
+      "english": "Break-through",
+      "upperTrigram": "兑",
+      "lowerTrigram": "乾",
+      "binary": "111110",
+      "judgment": "扬于王庭，孚号有厉。告自邑，不利即戎，利有攸往。",
+      "judgmentEn": "Break-through. One must resolutely make the matter known at the court of the king. It must be announced truthfully. Danger. It is necessary to announce it in one's own city. One must not resort to weapons; it furthers one to undertake something.",
+      "image": "泽上于天，夬；君子以施禄及下，居德则忌。",
+      "lines": [
+        { "position": 1, "text": "壮于前趾，往不胜为咎。", "textEn": "Mighty in the forward-thrusting foot. If one goes forward and does not overcome, there is blame." },
+        { "position": 2, "text": "惕号，莫夜有戎，勿恤。", "textEn": "A cry of alarm. In the evening and at night arms are at hand. Do not be anxious." },
+        { "position": 3, "text": "壮于頄，有凶。君子夬夬，独行遇雨，若濡有愠，无咎。", "textEn": "Mighty in the cheekbones. Misfortune. The superior man is resolutely determined. He goes alone and meets with rain; he gets wet and is angry, but no blame." },
+        { "position": 4, "text": "臀无肤，其行次且。牵羊悔亡，闻言不信。", "textEn": "The buttocks have no skin; his walking is hesitant. If one lets himself be led like a sheep, remorse disappears, but he does not believe these words." },
+        { "position": 5, "text": "苋陆夬夬，中行无咎。", "textEn": "In dealing with the weeds, firm resolution is necessary. Walking in the middle remains free of blame." },
+        { "position": 6, "text": "无号，终有凶。", "textEn": "No cry of alarm. In the end misfortune comes." }
+      ]
+    },
+    {
+      "number": 44,
+      "name": "姤",
+      "pinyin": "Gòu",
+      "english": "Coming to Meet",
+      "upperTrigram": "乾",
+      "lowerTrigram": "巽",
+      "binary": "011111",
+      "judgment": "女壮，勿用取女。",
+      "judgmentEn": "Coming to Meet. The maiden is powerful. One should not marry such a maiden.",
+      "image": "天下有风，姤；后以施命诰四方。",
+      "lines": [
+        { "position": 1, "text": "系于金柅，贞吉，有攸往，见凶，羸豕孚蹢躅。", "textEn": "It must be checked by a metal brake. Perseverance brings good fortune. If one lets it take its course, one experiences misfortune. Even a lean pig has it in him to rage." },
+        { "position": 2, "text": "包有鱼，无咎，不利宾。", "textEn": "There is a fish in the tank. No blame. It does not further guests." },
+        { "position": 3, "text": "臀无肤，其行次且，厉，无大咎。", "textEn": "The buttocks have no skin. His walking is halting. Danger, but no great blame." },
+        { "position": 4, "text": "包无鱼，起凶。", "textEn": "No fish in the tank. This leads to misfortune." },
+        { "position": 5, "text": "以杞包瓜，含章，有陨自天。", "textEn": "A melon wrapped in willow bark. Hidden brilliance. Something falls from heaven." },
+        { "position": 6, "text": "姤其角，吝，无咎。", "textEn": "He comes to meet with his horns. Humiliation, but no blame." }
+      ]
+    },
+    {
+      "number": 45,
+      "name": "萃",
+      "pinyin": "Cuì",
+      "english": "Gathering Together",
+      "upperTrigram": "兑",
+      "lowerTrigram": "坤",
+      "binary": "000110",
+      "judgment": "亨。王假有庙，利见大人，亨，利贞。用大牲吉，利有攸往。",
+      "judgmentEn": "Gathering Together. Success. The king approaches his temple. It furthers one to see the great man. This brings success. Perseverance furthers. To bring great offerings creates good fortune. It furthers one to undertake something.",
+      "image": "泽上于地，萃；君子以除戎器，戒不虞。",
+      "lines": [
+        { "position": 1, "text": "有孚不终，乃乱乃萃，若号，一握为笑，勿恤，往无咎。", "textEn": "If you are sincere but not to the end, there will sometimes be confusion, sometimes gathering together. If you call out, then after one grasp of the hand you can laugh again. Do not worry; going brings no blame." },
+        { "position": 2, "text": "引吉，无咎，孚乃利用禴。", "textEn": "Letting oneself be drawn brings good fortune and remains without blame. If one is sincere, it furthers one to bring even a small offering." },
+        { "position": 3, "text": "萃如嗟如，无攸利，往无咎，小吝。", "textEn": "Gathering together amid sighs. Nothing that furthers. Going brings no blame. Slight humiliation." },
+        { "position": 4, "text": "大吉，无咎。", "textEn": "Great good fortune. No blame." },
+        { "position": 5, "text": "萃有位，无咎。匪孚，元永贞，悔亡。", "textEn": "If in gathering together one has position, this is no blame. If there are still those who are not yet won over, then one must have great and lasting perseverance, and remorse disappears." },
+        { "position": 6, "text": "赍咨涕洟，无咎。", "textEn": "Sighing and lamenting, weeping and sniffling. No blame." }
+      ]
+    },
+    {
+      "number": 46,
+      "name": "升",
+      "pinyin": "Shēng",
+      "english": "Pushing Upward",
+      "upperTrigram": "坤",
+      "lowerTrigram": "巽",
+      "binary": "011000",
+      "judgment": "元亨，用见大人，勿恤，南征吉。",
+      "judgmentEn": "Pushing Upward has supreme success. One must see the great man. Fear not. Departure toward the south brings good fortune.",
+      "image": "地中生木，升；君子以顺德，积小以高大。",
+      "lines": [
+        { "position": 1, "text": "允升，大吉。", "textEn": "Being welcomed in ascent. Great good fortune." },
+        { "position": 2, "text": "孚乃利用禴，无咎。", "textEn": "If one is sincere, it furthers one to bring even a small offering. No blame." },
+        { "position": 3, "text": "升虚邑。", "textEn": "One ascends into an empty city." },
+        { "position": 4, "text": "王用亨于岐山，吉，无咎。", "textEn": "The king uses him to sacrifice on Mount Qi. Good fortune. No blame." },
+        { "position": 5, "text": "贞吉，升阶。", "textEn": "Perseverance brings good fortune. One ascends the steps." },
+        { "position": 6, "text": "冥升，利于不息之贞。", "textEn": "Rising blindly. It furthers one to be unremittingly persevering." }
+      ]
+    },
+    {
+      "number": 47,
+      "name": "困",
+      "pinyin": "Kùn",
+      "english": "Oppression",
+      "upperTrigram": "兑",
+      "lowerTrigram": "坎",
+      "binary": "010110",
+      "judgment": "亨，贞，大人吉，无咎，有言不信。",
+      "judgmentEn": "Oppression. Success. Perseverance. The great man brings about good fortune. No blame. When one has something to say, it is not believed.",
+      "image": "泽无水，困；君子以致命遂志。",
+      "lines": [
+        { "position": 1, "text": "臀困于株木，入于幽谷，三岁不觌。", "textEn": "The buttocks are oppressed by a bare tree. He enters a dark valley. For three years one sees nothing." },
+        { "position": 2, "text": "困于酒食，朱绂方来，利用亨祀，征凶，无咎。", "textEn": "One is oppressed while at meat and drink. The man with the scarlet knee bands is just coming. It furthers one to offer sacrifice. To set forth brings misfortune. No blame." },
+        { "position": 3, "text": "困于石，据于蒺藜，入于其宫，不见其妻，凶。", "textEn": "A man permits himself to be oppressed by stone and leans on thorns and thistles. He enters his house and does not see his wife. Misfortune." },
+        { "position": 4, "text": "来徐徐，困于金车，吝，有终。", "textEn": "He comes very quietly, oppressed in a golden carriage. Humiliation, but the end is reached." },
+        { "position": 5, "text": "劓刖，困于赤绂，乃徐有说，利用祭祀。", "textEn": "His nose and feet are cut off. Oppression at the hands of the man with the purple knee bands. Joy comes softly. It furthers one to make offerings and sacrifices." },
+        { "position": 6, "text": "困于葛藟，于臲卼，曰动悔。有悔，征吉。", "textEn": "He is oppressed by creeping vines and stands on unsteady ground. He says, 'Movement brings remorse.' If one feels remorse over this and makes a start, good fortune comes." }
+      ]
+    },
+    {
+      "number": 48,
+      "name": "井",
+      "pinyin": "Jǐng",
+      "english": "The Well",
+      "upperTrigram": "坎",
+      "lowerTrigram": "巽",
+      "binary": "011010",
+      "judgment": "改邑不改井，无丧无得，往来井井。汔至，亦未繘井，羸其瓶，凶。",
+      "judgmentEn": "The Well. The town may be changed, but the well cannot be changed. It neither decreases nor increases. They come and go and draw from the well. If one gets down almost to the water and the rope does not go all the way, or the jug breaks, it brings misfortune.",
+      "image": "木上有水，井；君子以劳民劝相。",
+      "lines": [
+        { "position": 1, "text": "井泥不食，旧井无禽。", "textEn": "One does not drink the mud of the well. No animals come to an old well." },
+        { "position": 2, "text": "井谷射鲋，瓮敝漏。", "textEn": "At the wellhole one shoots fishes. The jug is broken and leaks." },
+        { "position": 3, "text": "井渫不食，为我心恻，可用汲，王明，并受其福。", "textEn": "The well is cleaned, but no one drinks from it. This is my heart's sorrow, for one might draw from it. If the king were clear-minded, good fortune might be enjoyed in common." },
+        { "position": 4, "text": "井甃，无咎。", "textEn": "The well is being lined. No blame." },
+        { "position": 5, "text": "井洌，寒泉食。", "textEn": "In the well there is a clear, cold spring from which one can drink." },
+        { "position": 6, "text": "井收勿幕，有孚元吉。", "textEn": "One draws from the well without hindrance. It is dependable. Supreme good fortune." }
+      ]
+    }
+,
+    {
+      "number": 49,
+      "name": "革",
+      "pinyin": "Gé",
+      "english": "Revolution",
+      "upperTrigram": "兑",
+      "lowerTrigram": "离",
+      "binary": "101110",
+      "judgment": "己日乃孚，元亨利贞，悔亡。",
+      "judgmentEn": "Revolution. On your own day you are believed. Supreme success, furthering through perseverance. Remorse disappears.",
+      "image": "泽中有火，革；君子以治历明时。",
+      "lines": [
+        { "position": 1, "text": "巩用黄牛之革。", "textEn": "Wrapped in the hide of a yellow cow." },
+        { "position": 2, "text": "己日乃革之，征吉，无咎。", "textEn": "When one's own day comes, one may create revolution. Starting brings good fortune. No blame." },
+        { "position": 3, "text": "征凶，贞厉。革言三就，有孚。", "textEn": "Starting brings misfortune. Perseverance brings danger. When talk of revolution has gone the rounds three times, one may commit himself, and men will believe him." },
+        { "position": 4, "text": "悔亡，有孚改命，吉。", "textEn": "Remorse disappears. Men believe him. Changing the form of government brings good fortune." },
+        { "position": 5, "text": "大人虎变，未占有孚。", "textEn": "The great man changes like a tiger. Even before he questions the oracle he is believed." },
+        { "position": 6, "text": "君子豹变，小人革面，征凶，居贞吉。", "textEn": "The superior man changes like a panther. The inferior man moults like a beast. Starting brings misfortune. To remain persevering brings good fortune." }
+      ]
+    },
+    {
+      "number": 50,
+      "name": "鼎",
+      "pinyin": "Dǐng",
+      "english": "The Cauldron",
+      "upperTrigram": "离",
+      "lowerTrigram": "巽",
+      "binary": "011101",
+      "judgment": "元吉，亨。",
+      "judgmentEn": "The Cauldron. Supreme good fortune. Success.",
+      "image": "木上有火，鼎；君子以正位凝命。",
+      "lines": [
+        { "position": 1, "text": "鼎颠趾，利出否，得妾以其子，无咎。", "textEn": "A cauldron with legs upturned. Furthers removal of stagnating stuff. One takes a concubine for the sake of her son. No blame." },
+        { "position": 2, "text": "鼎有实，我仇有疾，不我能即，吉。", "textEn": "There is food in the cauldron. My comrades are envious, but they cannot harm me. Good fortune." },
+        { "position": 3, "text": "鼎耳革，其行塞，雉膏不食，方雨亏悔，终吉。", "textEn": "The handle of the cauldron is altered. Its movement is obstructed. The pheasant fat is not eaten. Just then comes rain, and remorse abates. In the end good fortune." },
+        { "position": 4, "text": "鼎折足，覆公餗，其形渥，凶。", "textEn": "The cauldron's legs are broken. The prince's meal is spilled and his person is soiled. Misfortune." },
+        { "position": 5, "text": "鼎黄耳金铉，利贞。", "textEn": "The cauldron has yellow handles and golden carrying rings. Perseverance furthers." },
+        { "position": 6, "text": "鼎玉铉，大吉，无不利。", "textEn": "The cauldron has rings of jade. Great good fortune. Nothing that would not further." }
+      ]
+    },
+    {
+      "number": 51,
+      "name": "震",
+      "pinyin": "Zhèn",
+      "english": "The Arousing",
+      "upperTrigram": "震",
+      "lowerTrigram": "震",
+      "binary": "100100",
+      "judgment": "亨。震来虩虩，笑言哑哑。震惊百里，不丧匕鬯。",
+      "judgmentEn": "Shock. Success. Shock comes — oh, oh! Laughter and talk — ha, ha! The shock terrifies for a hundred miles, and he does not let fall the sacrificial spoon and chalice.",
+      "image": "洊雷，震；君子以恐惧修省。",
+      "lines": [
+        { "position": 1, "text": "震来虩虩，后笑言哑哑，吉。", "textEn": "Shock comes — oh, oh! Then follow laughter and talk — ha, ha! Good fortune." },
+        { "position": 2, "text": "震来厉，亿丧贝，跻于九陵，勿逐，七日得。", "textEn": "Shock comes with danger. One loses one's treasures and must climb the nine hills. Do not pursue them; after seven days you will get them back." },
+        { "position": 3, "text": "震苏苏，震行无眚。", "textEn": "Shock comes and makes one distraught. If the shock spurs to action, one remains free of misfortune." },
+        { "position": 4, "text": "震遂泥。", "textEn": "Shock is mired in mud." },
+        { "position": 5, "text": "震往来厉，亿无丧，有事。", "textEn": "Shock goes hither and thither. Danger. Yet nothing at all is lost, though there are things to be done." },
+        { "position": 6, "text": "震索索，视矍矍，征凶。震不于其躬，于其邻，无咎。婚媾有言。", "textEn": "Shock brings ruin and terrified gazing around. Going ahead brings misfortune. If it has not yet touched one's own body but has reached one's neighbor first, there is no blame. One's comrades have something to talk about." }
+      ]
+    },
+    {
+      "number": 52,
+      "name": "艮",
+      "pinyin": "Gèn",
+      "english": "Keeping Still",
+      "upperTrigram": "艮",
+      "lowerTrigram": "艮",
+      "binary": "001001",
+      "judgment": "艮其背，不获其身，行其庭，不见其人，无咎。",
+      "judgmentEn": "Keeping Still. Keeping his back still, so that he no longer feels his body. He goes into his courtyard and does not see his people. No blame.",
+      "image": "兼山，艮；君子以思不出其位。",
+      "lines": [
+        { "position": 1, "text": "艮其趾，无咎，利永贞。", "textEn": "Keeping his toes still. No blame. Continued perseverance furthers." },
+        { "position": 2, "text": "艮其腓，不拯其随，其心不快。", "textEn": "Keeping his calves still. He cannot rescue him whom he follows. His heart is not glad." },
+        { "position": 3, "text": "艮其限，列其夤，厉薰心。", "textEn": "Keeping his hips still. Making his sacrum stiff. Dangerous. The heart suffocates." },
+        { "position": 4, "text": "艮其身，无咎。", "textEn": "Keeping his trunk still. No blame." },
+        { "position": 5, "text": "艮其辅，言有序，悔亡。", "textEn": "Keeping his jaws still. The words have order. Remorse disappears." },
+        { "position": 6, "text": "敦艮，吉。", "textEn": "Noblehearted keeping still. Good fortune." }
+      ]
+    },
+    {
+      "number": 53,
+      "name": "渐",
+      "pinyin": "Jiàn",
+      "english": "Development",
+      "upperTrigram": "巽",
+      "lowerTrigram": "艮",
+      "binary": "001011",
+      "judgment": "女归吉，利贞。",
+      "judgmentEn": "Development. The maiden is given in marriage. Good fortune. Perseverance furthers.",
+      "image": "山上有木，渐；君子以居贤德善俗。",
+      "lines": [
+        { "position": 1, "text": "鸿渐于干，小子厉，有言，无咎。", "textEn": "The wild goose gradually draws near the shore. The young son is in danger. There is talk. No blame." },
+        { "position": 2, "text": "鸿渐于磐，饮食衎衎，吉。", "textEn": "The wild goose gradually draws near the cliff. Eating and drinking in peace and concord. Good fortune." },
+        { "position": 3, "text": "鸿渐于陆，夫征不复，妇孕不育，凶；利御寇。", "textEn": "The wild goose gradually draws near the plateau. The man goes forth and does not return. The woman carries a child but does not bring it forth. Misfortune. It furthers one to fight off robbers." },
+        { "position": 4, "text": "鸿渐于木，或得其桷，无咎。", "textEn": "The wild goose gradually draws near the tree. Perhaps it finds a flat branch. No blame." },
+        { "position": 5, "text": "鸿渐于陵，妇三岁不孕，终莫之胜，吉。", "textEn": "The wild goose gradually draws near the summit. For three years the woman has no child. In the end nothing can hinder her. Good fortune." },
+        { "position": 6, "text": "鸿渐于陆，其羽可用为仪，吉。", "textEn": "The wild goose gradually draws near the heights. Its feathers can be used for the sacred dance. Good fortune." }
+      ]
+    },
+    {
+      "number": 54,
+      "name": "归妹",
+      "pinyin": "Guī Mèi",
+      "english": "The Marrying Maiden",
+      "upperTrigram": "震",
+      "lowerTrigram": "兑",
+      "binary": "110100",
+      "judgment": "征凶，无攸利。",
+      "judgmentEn": "The Marrying Maiden. Undertakings bring misfortune. Nothing that would further.",
+      "image": "泽上有雷，归妹；君子以永终知敝。",
+      "lines": [
+        { "position": 1, "text": "归妹以娣，跛能履，征吉。", "textEn": "The marrying maiden as a concubine. A lame man who is able to tread. Undertakings bring good fortune." },
+        { "position": 2, "text": "眇能视，利幽人之贞。", "textEn": "A one-eyed man who is able to see. The perseverance of a solitary man furthers." },
+        { "position": 3, "text": "归妹以须，反归以娣。", "textEn": "The marrying maiden is delayed; she returns and is given in marriage as a concubine." },
+        { "position": 4, "text": "归妹愆期，迟归有时。", "textEn": "The marrying maiden draws out the allotted time. A late marriage comes in due course." },
+        { "position": 5, "text": "帝乙归妹，其君之袂，不如其娣之袂良。月几望，吉。", "textEn": "The sovereign Yi gave his daughter in marriage. The embroidered garments of this princess were not as gorgeous as those of her serving maids. The moon that is nearly full brings good fortune." },
+        { "position": 6, "text": "女承筐无实，士刲羊无血，无攸利。", "textEn": "The woman holds a basket, but it is empty. The man stabs a sheep, but no blood flows. Nothing that furthers." }
+      ]
+    },
+    {
+      "number": 55,
+      "name": "丰",
+      "pinyin": "Fēng",
+      "english": "Abundance",
+      "upperTrigram": "震",
+      "lowerTrigram": "离",
+      "binary": "101100",
+      "judgment": "亨，王假之，勿忧，宜日中。",
+      "judgmentEn": "Abundance has success. The king attains abundance. Be not sad. Be like the sun at midday.",
+      "image": "雷电皆至，丰；君子以折狱致刑。",
+      "lines": [
+        { "position": 1, "text": "遇其配主，虽旬无咎，往有尚。", "textEn": "One meets one's destined lord. Although a whole decade passes, there is no blame. Going brings honor." },
+        { "position": 2, "text": "丰其蔀，日中见斗，往得疑疾，有孚发若，吉。", "textEn": "One spreads the curtain so that at midday one sees the Dipper. Going brings suspicion and illness, but sincerity awakens trust. Good fortune." },
+        { "position": 3, "text": "丰其沛，日中见沫，折其右肱，无咎。", "textEn": "The curtain is spread. At midday one sees the small stars. One's right arm is broken. No blame." },
+        { "position": 4, "text": "丰其蔀，日中见斗，遇其夷主，吉。", "textEn": "The curtain is spread so that at midday one sees the Dipper. One meets one's equal lord. Good fortune." },
+        { "position": 5, "text": "来章，有庆誉，吉。", "textEn": "One brings radiance. There is celebration and praise. Good fortune." },
+        { "position": 6, "text": "丰其屋，蔀其家，窥其户，阒其无人，三岁不觌，凶。", "textEn": "He increases his house and covers his family. Peering at his door, there is no one; for three years no one is seen. Misfortune." }
+      ]
+    },
+    {
+      "number": 56,
+      "name": "旅",
+      "pinyin": "Lǚ",
+      "english": "The Wanderer",
+      "upperTrigram": "离",
+      "lowerTrigram": "艮",
+      "binary": "001101",
+      "judgment": "小亨，旅贞吉。",
+      "judgmentEn": "The Wanderer. Success through smallness. Perseverance brings good fortune to the wanderer.",
+      "image": "山上有火，旅；君子以明慎用刑，而不留狱。",
+      "lines": [
+        { "position": 1, "text": "旅琐琐，斯其所取灾。", "textEn": "The wanderer busies himself with trifles. This brings disaster upon him." },
+        { "position": 2, "text": "旅即次，怀其资，得童仆贞。", "textEn": "The wanderer comes to an inn. He has his property with him. He wins the steadfastness of a young servant." },
+        { "position": 3, "text": "旅焚其次，丧其童仆，贞厉。", "textEn": "The wanderer's inn burns down. He loses the steadfastness of his young servant. Danger." },
+        { "position": 4, "text": "旅于处，得其资斧，我心不快。", "textEn": "The wanderer rests in a shelter. He obtains his property and an axe. My heart is not glad." },
+        { "position": 5, "text": "射雉一矢亡，终以誉命。", "textEn": "He shoots a pheasant and loses one arrow. In the end this brings praise and high office." },
+        { "position": 6, "text": "鸟焚其巢，旅人先笑后号咷。丧牛于易，凶。", "textEn": "The bird's nest burns up. The wanderer laughs first, then weeps and wails. He loses his cow with ease. Misfortune." }
+      ]
+    }
+,
+    {
+      "number": 57,
+      "name": "巽",
+      "pinyin": "Xùn",
+      "english": "The Gentle Wind",
+      "upperTrigram": "巽",
+      "lowerTrigram": "巽",
+      "binary": "011011",
+      "judgment": "小亨，利有攸往，利见大人。",
+      "judgmentEn": "The Gentle. Success through smallness. It furthers one to have somewhere to go. It furthers one to see the great man.",
+      "image": "随风，巽；君子以申命行事。",
+      "lines": [
+        { "position": 1, "text": "进退，利武人之贞。", "textEn": "Advancing and retreating. The perseverance of a warrior furthers." },
+        { "position": 2, "text": "巽在床下，用史巫纷若，吉，无咎。", "textEn": "Penetration under the bed. Priests and magicians are used in great number. Good fortune. No blame." },
+        { "position": 3, "text": "频巽，吝。", "textEn": "Repeated penetration. Humiliation." },
+        { "position": 4, "text": "悔亡，田获三品。", "textEn": "Remorse disappears. In the hunt three kinds of game are caught." },
+        { "position": 5, "text": "贞吉，悔亡，无不利。无初有终，先庚三日，后庚三日，吉。", "textEn": "Perseverance brings good fortune. Remorse disappears. Everything furthers. No beginning, but a good end. Before the change, three days. After the change, three days. Good fortune." },
+        { "position": 6, "text": "巽在床下，丧其资斧，贞凶。", "textEn": "Penetration under the bed. He loses his property and his axe. Perseverance brings misfortune." }
+      ]
+    },
+    {
+      "number": 58,
+      "name": "兑",
+      "pinyin": "Duì",
+      "english": "The Joyous",
+      "upperTrigram": "兑",
+      "lowerTrigram": "兑",
+      "binary": "110110",
+      "judgment": "亨，利贞。",
+      "judgmentEn": "The Joyous. Success. Perseverance is favorable.",
+      "image": "丽泽，兑；君子以朋友讲习。",
+      "lines": [
+        { "position": 1, "text": "和兑，吉。", "textEn": "Contented joy. Good fortune." },
+        { "position": 2, "text": "孚兑，吉，悔亡。", "textEn": "Sincere joy. Good fortune. Remorse disappears." },
+        { "position": 3, "text": "来兑，凶。", "textEn": "Coming joy. Misfortune." },
+        { "position": 4, "text": "商兑未宁，介疾有喜。", "textEn": "Deliberating joy is not yet at peace. If one takes a firm stand against the illness, there is joy." },
+        { "position": 5, "text": "孚于剥，有厉。", "textEn": "Sincerity toward what is being stripped away. Danger." },
+        { "position": 6, "text": "引兑。", "textEn": "He draws out joy." }
+      ]
+    },
+    {
+      "number": 59,
+      "name": "涣",
+      "pinyin": "Huàn",
+      "english": "Dispersion",
+      "upperTrigram": "巽",
+      "lowerTrigram": "坎",
+      "binary": "010011",
+      "judgment": "亨。王假有庙，利涉大川，利贞。",
+      "judgmentEn": "Dispersion. Success. The king approaches his temple. It furthers one to cross the great water. Perseverance furthers.",
+      "image": "风行水上，涣；先王以享于帝立庙。",
+      "lines": [
+        { "position": 1, "text": "用拯马壮，吉。", "textEn": "He brings help with the strength of a horse. Good fortune." },
+        { "position": 2, "text": "涣奔其机，悔亡。", "textEn": "He dissolves and hurries to his support. Remorse disappears." },
+        { "position": 3, "text": "涣其躬，无悔。", "textEn": "He scatters his own concerns. No remorse." },
+        { "position": 4, "text": "涣其群，元吉。涣有丘，匪夷所思。", "textEn": "He dissolves his group. Supreme good fortune. In dissolution there is a mound, and what ordinary people think is quite strange." },
+        { "position": 5, "text": "涣汗其大号，涣王居，无咎。", "textEn": "He issues his great command as freely as sweat. He disperses the king's dwelling. No blame." },
+        { "position": 6, "text": "涣其血去逖出，无咎。", "textEn": "He disperses his blood; danger departs and he goes far away. No blame." }
+      ]
+    },
+    {
+      "number": 60,
+      "name": "节",
+      "pinyin": "Jié",
+      "english": "Limitation",
+      "upperTrigram": "坎",
+      "lowerTrigram": "兑",
+      "binary": "110010",
+      "judgment": "亨。苦节不可贞。",
+      "judgmentEn": "Limitation. Success. Galling limitation must not be persevered in.",
+      "image": "泽上有水，节；君子以制数度，议德行。",
+      "lines": [
+        { "position": 1, "text": "不出户庭，无咎。", "textEn": "Not to go out of the door and courtyard. No blame." },
+        { "position": 2, "text": "不出门庭，凶。", "textEn": "Not to go out of the gate and courtyard. Misfortune." },
+        { "position": 3, "text": "不节若，则嗟若，无咎。", "textEn": "If he is without limitation, he will have cause to sigh. No blame." },
+        { "position": 4, "text": "安节，亨。", "textEn": "Contented limitation. Success." },
+        { "position": 5, "text": "甘节，吉；往有尚。", "textEn": "Sweet limitation. Good fortune. Going brings honor." },
+        { "position": 6, "text": "苦节，贞凶，悔亡。", "textEn": "Galling limitation. Perseverance brings misfortune. Remorse disappears." }
+      ]
+    },
+    {
+      "number": 61,
+      "name": "中孚",
+      "pinyin": "Zhōng Fú",
+      "english": "Inner Truth",
+      "upperTrigram": "巽",
+      "lowerTrigram": "兑",
+      "binary": "110011",
+      "judgment": "豚鱼吉，利涉大川，利贞。",
+      "judgmentEn": "Inner Truth. Pigs and fishes. Good fortune. It furthers one to cross the great water. Perseverance furthers.",
+      "image": "泽上有风，中孚；君子以议狱缓死。",
+      "lines": [
+        { "position": 1, "text": "虞吉，有它不燕。", "textEn": "He is prepared and at peace. If there is something else, he is not at ease." },
+        { "position": 2, "text": "鸣鹤在阴，其子和之。我有好爵，吾与尔靡之。", "textEn": "A crane calling in the shade. Its young answers it. I have a good goblet, and I will share it with you." },
+        { "position": 3, "text": "得敌，或鼓或罢，或泣或歌。", "textEn": "One finds one's mate: now beating the drum, now stopping; now weeping, now singing." },
+        { "position": 4, "text": "月几望，马匹亡，无咎。", "textEn": "The moon is nearly full. The horse loses its mate. No blame." },
+        { "position": 5, "text": "有孚挛如，无咎。", "textEn": "He who is sincere and binds others to himself remains without blame." },
+        { "position": 6, "text": "翰音登于天，贞凶。", "textEn": "The call of the cockerel ascends to heaven. Perseverance brings misfortune." }
+      ]
+    },
+    {
+      "number": 62,
+      "name": "小过",
+      "pinyin": "Xiǎo Guò",
+      "english": "Preponderance of the Small",
+      "upperTrigram": "震",
+      "lowerTrigram": "艮",
+      "binary": "001100",
+      "judgment": "亨，利贞，可小事，不可大事。飞鸟遗之音，不宜上宜下，大吉。",
+      "judgmentEn": "Preponderance of the Small. Success. Perseverance furthers. Small things may be done; great things should not be done. The flying bird brings the message: It is not well to strive upward, it is well to remain below. Great good fortune.",
+      "image": "山上有雷，小过；君子以行过乎恭，丧过乎哀，用过乎俭。",
+      "lines": [
+        { "position": 1, "text": "飞鸟以凶。", "textEn": "The bird meets with misfortune through flying." },
+        { "position": 2, "text": "过其祖，遇其妣；不及其君，遇其臣；无咎。", "textEn": "She passes by her ancestor and meets her ancestress. She does not reach her prince, but meets his servant. No blame." },
+        { "position": 3, "text": "弗过防之，从或戕之，凶。", "textEn": "If one is not extremely careful, somebody may come and do one harm. Misfortune." },
+        { "position": 4, "text": "无咎，弗过遇之。往厉必戒，勿用永贞。", "textEn": "No blame. Without going too far, one meets the situation. Going brings danger; one must be on guard. Do not act with long perseverance." },
+        { "position": 5, "text": "密云不雨，自我西郊，公弋取彼在穴。", "textEn": "Dense clouds, no rain from our western region. The prince shoots and hits him who is in the cave." },
+        { "position": 6, "text": "弗遇过之，飞鸟离之，凶，是谓灾眚。", "textEn": "He does not meet the situation but overshoots it. The flying bird is caught in the net. Misfortune. This is called calamity and disaster." }
+      ]
+    },
+    {
+      "number": 63,
+      "name": "既济",
+      "pinyin": "Jì Jì",
+      "english": "After Completion",
+      "upperTrigram": "坎",
+      "lowerTrigram": "离",
+      "binary": "101010",
+      "judgment": "亨小，利贞，初吉终乱。",
+      "judgmentEn": "After Completion. Success in small matters. Perseverance furthers. At the beginning good fortune, at the end disorder.",
+      "image": "水在火上，既济；君子以思患而豫防之。",
+      "lines": [
+        { "position": 1, "text": "曳其轮，濡其尾，无咎。", "textEn": "He brakes his wheels. He gets his tail in the water. No blame." },
+        { "position": 2, "text": "妇丧其茀，勿逐，七日得。", "textEn": "The woman loses the curtain of her carriage. Do not run after it; after seven days you will get it back." },
+        { "position": 3, "text": "高宗伐鬼方，三年克之，小人勿用。", "textEn": "The illustrious ancestor Gaozong conquered the Devil's Country in three years. One should not employ inferior people." },
+        { "position": 4, "text": "繻有衣袽，终日戒。", "textEn": "Fine clothes turn to rags; be mindful the whole day long." },
+        { "position": 5, "text": "东邻杀牛，不如西邻之禴祭，实受其福。", "textEn": "The eastern neighbor slaughters an ox; it is not equal to the western neighbor's simple sacrifice, for he truly receives the blessing." },
+        { "position": 6, "text": "濡其首，厉。", "textEn": "He gets his head in the water. Danger." }
+      ]
+    },
+    {
+      "number": 64,
+      "name": "未济",
+      "pinyin": "Wèi Jì",
+      "english": "Before Completion",
+      "upperTrigram": "离",
+      "lowerTrigram": "坎",
+      "binary": "010101",
+      "judgment": "亨，小狐汔济，濡其尾，无攸利。",
+      "judgmentEn": "Before Completion. Success. But if the little fox, after nearly completing the crossing, gets its tail in the water, there is nothing that would further.",
+      "image": "火在水上，未济；君子以慎辨物居方。",
+      "lines": [
+        { "position": 1, "text": "濡其尾，吝。", "textEn": "He gets his tail in the water. Humiliation." },
+        { "position": 2, "text": "曳其轮，贞吉。", "textEn": "He brakes his wheels. Perseverance brings good fortune." },
+        { "position": 3, "text": "未济，征凶，利涉大川。", "textEn": "Not yet completed. To go forward brings misfortune, but it furthers one to cross the great water." },
+        { "position": 4, "text": "贞吉，悔亡，震用伐鬼方，三年有赏于大国。", "textEn": "Perseverance brings good fortune. Remorse disappears. The time of shock is used to conquer the Devil's Country. For three years one receives rewards from the great kingdom." },
+        { "position": 5, "text": "贞吉，无悔，君子之光，有孚，吉。", "textEn": "Perseverance brings good fortune. No remorse. The light of the superior man is truth. Good fortune." },
+        { "position": 6, "text": "有孚于饮酒，无咎，濡其首，有孚失是。", "textEn": "There is sincerity over drinking wine. No blame. But if he gets his head in the water, sincerity loses its correctness." }
+      ]
+    }
+  ]
+}

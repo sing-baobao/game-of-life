@@ -1,99 +1,334 @@
 ---
 import Layout from '../layouts/layout.astro';
 
-// Sample Strategy Cards mapped from deep structural state dynamics (64 Kua / 384 Yao models)
-const strategyCards = [
-  {
-    id: 1,
-    category: "Systemic Friction",
-    title: "The Bottlenecked Pivot",
-    situation: "You are pushing hard against organizational inertia, but every initiative stalls in committee review.",
-    dynamic: "Underlying Dynamic: Systemic exhaustion under high load. Momentum is counter-productive because the feedback loop is oversaturated.",
-    strategy: "Adaptive Strategy: Apply Marcus Aurelius's principle of 'The Obstacle is the Way.' Step back, reduce throughput, and allow the system to clear its cache before re-engaging.",
-    philosopher: "Stoic Economy of Effort"
-  },
-  {
-    id: 2,
-    category: "Personal Equilibrium",
-    title: "The Shadow Overload",
-    situation: "Minor daily friction points are triggering disproportionate frustration and cognitive fatigue.",
-    dynamic: "Underlying Dynamic: Unintegrated shadow projections. The external friction is merely mirroring an internal misalignment or suppressed boundary.",
-    strategy: "Adaptive Strategy: Adopt Carl Jung's active introspection. Treat the irritation as objective data rather than a personal attack; audit where you are over-extending your energy.",
-    philosopher: "Jungian Shadow Integration"
-  },
-  {
-    id: 3,
-    category: "Strategic Timing",
-    title: "The Premature Launch",
-    situation: "Urge to force a decision or announce a project before all structural dependencies are verified.",
-    dynamic: "Underlying Dynamic: Premature output phase. Energy is leaking because the internal architecture has not stabilized under stress testing.",
-    strategy: "Adaptive Strategy: Apply Daoist *Wu Wei* (strategic non-action). Refine the backend quietly while letting external noise pass unheeded until timing converges naturally.",
-    philosopher: "Pragmatic Systems Daoism"
-  }
-];
+// The advisor itself runs on-demand on Cloudflare Workers; the page stays static.
+export const prerender = true;
 ---
 
 <Layout title="Game of Life | Adaptive Strategies">
     <main class="container py-10">
-        
+
         <!-- Hero Section -->
-        <section class="bg-white rounded-xl p-8 mb-10 shadow-sm border-l-8 border-green-800">
+        <section class="bg-white rounded-xl p-8 shadow-sm border-l-8 border-green-800">
             <h1 class="text-3xl font-extrabold text-green-900 mb-3">Adaptive Strategies for Everyone</h1>
             <p class="text-gray-700 text-lg max-w-3xl">
-				Describe <strong>how you feel</strong> in plain language below. Our engine maps your narrative through a 64-state system to uncover your <strong>Current Situation</strong>, reveal the <strong>Underlying Dynamic</strong>, and recommend the right <strong>Adaptive Strategy</strong> for your next move.
-			</p>
-			<br/>
-			<p>
-				Work in progress...
-			</p>
+                Describe <strong>how you feel</strong> in plain language below. The advisor maps your narrative through a
+                64-state system to uncover your <strong>Current Situation</strong>, reveal the
+                <strong>Underlying Dynamic</strong>, and recommend the right <strong>Adaptive Strategy</strong> for your next move.
+            </p>
+            <p class="disclaimer" style="margin-top:1rem;font-size:0.85rem;color:#6b665d;border-left:3px solid #e2ddd0;padding-left:0.9rem;">
+                <i class="fa-solid fa-circle-info"></i>
+                This advisor is an <strong>AI</strong>. It is not a therapist and is <strong>not a replacement for clinical
+                therapy</strong>. It cannot diagnose or treat any condition. If you are in crisis or at risk of harming
+                yourself or others, please contact your local emergency services or a crisis helpline right away.
+            </p>
         </section>
 
-        <!-- Interactive Deck Grid -->
-        <div class="deck-grid">
-            {strategyCards.map((card) => (
-                <div class="card-scene" onclick="this.querySelector('.card-object').classList.toggle('is-flipped')">
-                    <div class="card-object">
-                        
-                        <!-- Front Face: Current Situation -->
-                        <div class="card-face card-front">
-                            <div>
-                                <span class="card-badge mb-3">{card.category}</span>
-                                <h3 class="text-xl font-bold text-gray-900 mb-3">
-                                    <i class="fa-solid fa-chess-knight text-amber-800 mr-2"></i> {card.title}
-                                </h3>
-                                <p class="text-gray-600 text-sm leading-relaxed mb-4">
-                                    <strong>Current Situation:</strong> {card.situation}
-                                </p>
-                            </div>
-                            <div class="flex items-center justify-between text-xs text-green-800 font-bold uppercase tracking-wider border-t pt-3">
-                                <span>Click to Flip Card</span>
-                                <i class="fa-solid fa-rotate text-sm"></i>
-                            </div>
-                        </div>
+        <div class="advisor">
 
-                        <!-- Back Face: Underlying Dynamic & Adaptive Strategy -->
-                        <div class="card-face card-back">
-                            <div>
-                                <span class="card-badge mb-2">{card.philosopher}</span>
-                                <p class="text-amber-200 text-xs leading-relaxed mb-3">
-                                    {card.dynamic}
-                                </p>
-                                <div class="strategy-box">
-                                    <p class="text-gray-100 text-xs leading-relaxed">
-                                        <strong>Move:</strong> {card.strategy}
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="flex items-center justify-between text-xs text-amber-400 font-bold uppercase tracking-wider border-t border-gray-700 pt-3">
-                                <span>Flip Back</span>
-                                <i class="fa-solid fa-rotate text-sm"></i>
-                            </div>
-                        </div>
+            <!-- Step 1: Current Situation -->
+            <section class="panel" id="step1">
+                <div class="step-head">
+                    <span class="step-num">1</span>
+                    <h2>Current Situation</h2>
+                </div>
+                <p class="hint">Tell the advisor what is going on, in your own words. There is no right way to write it.</p>
+                <textarea
+                    id="situationText"
+                    class="field"
+                    rows="7"
+                    maxlength="4000"
+                    placeholder="e.g. I have been offered a bigger role at work, but I feel stuck and anxious about it. Every time I think about deciding, I freeze..."
+                ></textarea>
+                <div class="row">
+                    <span class="counter" id="charCount">0 / 4000</span>
+                    <button class="cta-button" id="analyseBtn">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i> Analyse
+                    </button>
+                </div>
+                <p class="error" id="analyseError" hidden></p>
+            </section>
 
+            <!-- Step 2: The Gua (Underlying Dynamic) -->
+            <section class="panel" id="step2" hidden>
+                <div class="step-head">
+                    <span class="step-num">2</span>
+                    <h2>Underlying Dynamic</h2>
+                </div>
+
+                <div class="gua-layout">
+                    <div>
+                        <div class="hex-lines" id="hexLines"></div>
+                        <div class="gua-symbol" id="guaSymbol"></div>
+                    </div>
+                    <div>
+                        <div class="gua-meta" id="guaNumber"></div>
+                        <div class="gua-title">
+                            <span class="gua-name" id="guaCn"></span>
+                            <span class="gua-english" id="guaEn"></span>
+                        </div>
+                        <div class="hint" id="guaPinyin" style="margin:0.25rem 0 0;"></div>
+                        <div class="hint" id="guaTrigrams" style="margin:0.15rem 0 0;"></div>
                     </div>
                 </div>
-            ))}
-        </div>
 
+                <div class="classic">
+                    <div class="label">Judgment · 卦辞</div>
+                    <div class="cn" id="guaJudgment"></div>
+                    <div class="en" id="guaJudgmentEn"></div>
+                </div>
+                <div class="classic">
+                    <div class="label">Image · 象曰</div>
+                    <div class="cn" id="guaImage"></div>
+                </div>
+
+                <div class="narrative">
+                    <div class="label">Your Current Situation</div>
+                    <p id="situationSummary"></p>
+                </div>
+                <div class="narrative">
+                    <div class="label">The Underlying Dynamic</div>
+                    <p id="underlyingDynamic"></p>
+                </div>
+
+                <hr style="margin:1.75rem 0;border:none;border-top:1px solid #e2ddd0;" />
+
+                <p class="hint" style="margin-bottom:0.75rem;">
+                    <strong>3.</strong> How would you like to meet this dynamic?
+                </p>
+                <div class="stance-group" id="stanceGroup">
+                    <label class="stance-option">
+                        <input type="radio" name="stance" value="positive" />
+                        <span class="title">Positive</span>
+                        <span class="sub">Move toward it</span>
+                    </label>
+                    <label class="stance-option is-selected">
+                        <input type="radio" name="stance" value="neutral" checked />
+                        <span class="title">Neutral</span>
+                        <span class="sub">Stay balanced</span>
+                    </label>
+                    <label class="stance-option">
+                        <input type="radio" name="stance" value="negative" />
+                        <span class="title">Negative</span>
+                        <span class="sub">Pull back &amp; conserve</span>
+                    </label>
+                </div>
+
+                <div class="row">
+                    <button class="cta-button ghost" id="backBtn1">
+                        <i class="fa-solid fa-arrow-left"></i> Edit situation
+                    </button>
+                    <button class="cta-button" id="doneBtn">
+                        <i class="fa-solid fa-check"></i> Done
+                    </button>
+                </div>
+                <p class="error" id="doneError" hidden></p>
+            </section>
+
+            <!-- Step 3: The Yao (Adaptive Strategy) -->
+            <section class="panel" id="step3" hidden>
+                <div class="step-head">
+                    <span class="step-num">3</span>
+                    <h2>Adaptive Strategy</h2>
+                </div>
+
+                <div class="yao-layout">
+                    <div class="hex-lines" id="yaoLines"></div>
+                    <div>
+                        <div class="card-badge" id="yaoBadge"></div>
+                        <div class="yao-heading" id="yaoHeading"></div>
+                        <div class="classic" style="margin-top:0.75rem;">
+                            <div class="cn" id="yaoCn"></div>
+                            <div class="en" id="yaoEn"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="strategy-box">
+                    <div class="label">Your Adaptive Strategy</div>
+                    <p id="adaptiveStrategy"></p>
+                </div>
+
+                <div class="row">
+                    <button class="cta-button ghost" id="backBtn2">
+                        <i class="fa-solid fa-arrow-left"></i> Change approach
+                    </button>
+                    <button class="cta-button" id="restartBtn">
+                        <i class="fa-solid fa-rotate-left"></i> Start over
+                    </button>
+                </div>
+            </section>
+
+        </div>
     </main>
+
+    <script>
+        const $ = (id) => document.getElementById(id);
+
+        const step1 = $('step1');
+        const step2 = $('step2');
+        const step3 = $('step3');
+
+        const situationText = $('situationText');
+        const charCount = $('charCount');
+        const analyseBtn = $('analyseBtn');
+        const analyseError = $('analyseError');
+
+        const doneBtn = $('doneBtn');
+        const doneError = $('doneError');
+
+        const MIN_LENGTH = 10;
+
+        let situation = '';
+        let gua = null;
+        let stance = 'neutral';
+
+        situationText.addEventListener('input', () => {
+            charCount.textContent = `${situationText.value.length} / 4000`;
+        });
+
+        document.querySelectorAll('.stance-option').forEach((option) => {
+            option.addEventListener('click', () => {
+                document.querySelectorAll('.stance-option').forEach((o) => o.classList.remove('is-selected'));
+                option.classList.add('is-selected');
+            });
+        });
+
+        analyseBtn.addEventListener('click', async () => {
+            const text = situationText.value.trim();
+            if (text.length < MIN_LENGTH) {
+                showError(analyseError, 'Please describe your situation in at least a sentence or two.');
+                return;
+            }
+            clearError(analyseError);
+            setBusy(analyseBtn, true, 'Analysing...');
+            try {
+                const data = await post({ phase: 'analyse', situation: text });
+                situation = text;
+                gua = data.gua;
+                renderGua(data);
+                step1.hidden = true;
+                step3.hidden = true;
+                step2.hidden = false;
+                step2.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } catch (error) {
+                showError(analyseError, error.message);
+            } finally {
+                setBusy(analyseBtn, false, '<i class="fa-solid fa-wand-magic-sparkles"></i> Analyse');
+            }
+        });
+
+        doneBtn.addEventListener('click', async () => {
+            const checked = document.querySelector('input[name="stance"]:checked');
+            stance = checked ? checked.value : 'neutral';
+            clearError(doneError);
+            setBusy(doneBtn, true, 'Consulting...');
+            try {
+                const data = await post({ phase: 'advise', situation, hexagramNumber: gua.number, stance });
+                renderYao(data);
+                step2.hidden = true;
+                step3.hidden = false;
+                step3.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } catch (error) {
+                showError(doneError, error.message);
+            } finally {
+                setBusy(doneBtn, false, '<i class="fa-solid fa-check"></i> Done');
+            }
+        });
+
+        $('backBtn1').addEventListener('click', () => {
+            step2.hidden = true;
+            step1.hidden = false;
+            situationText.focus();
+        });
+
+        $('backBtn2').addEventListener('click', () => {
+            step3.hidden = true;
+            step2.hidden = false;
+        });
+
+        $('restartBtn').addEventListener('click', () => {
+            situation = '';
+            gua = null;
+            situationText.value = '';
+            charCount.textContent = '0 / 4000';
+            step2.hidden = true;
+            step3.hidden = true;
+            step1.hidden = false;
+            situationText.focus();
+        });
+
+        async function post(body) {
+            const response = await fetch('/api/advisor', {
+                method: 'POST',
+                headers: { 'content-type': 'application/json' },
+                body: JSON.stringify(body),
+            });
+            const data = await response.json().catch(() => ({}));
+            if (!response.ok) {
+                throw new Error(data.error || 'Something went wrong. Please try again.');
+            }
+            return data;
+        }
+
+        function renderGua(data) {
+            const g = data.gua;
+            $('guaSymbol').textContent = String.fromCodePoint(0x4dc0 + g.number - 1);
+            $('guaNumber').textContent = `Hexagram ${g.number} of 64`;
+            $('guaCn').textContent = g.name;
+            $('guaEn').textContent = g.english;
+            $('guaPinyin').textContent = g.pinyin;
+            $('guaTrigrams').textContent = `上 ${g.upperTrigram} · 下 ${g.lowerTrigram}`;
+            renderLines($('hexLines'), g.binary, 0);
+            $('guaJudgment').textContent = g.judgment;
+            $('guaJudgmentEn').textContent = g.judgmentEn;
+            $('guaImage').textContent = g.image;
+            $('situationSummary').textContent = data.situationSummary;
+            $('underlyingDynamic').textContent = data.underlyingDynamic;
+        }
+
+        function renderYao(data) {
+            const yao = data.yao;
+            renderLines($('yaoLines'), gua.binary, yao.position);
+            $('yaoBadge').textContent = `${yao.guaName} · ${yao.guaEnglish}`;
+            $('yaoHeading').textContent = `Line ${yao.position} of 6`;
+            $('yaoCn').textContent = yao.text;
+            $('yaoEn').textContent = yao.textEn;
+            $('adaptiveStrategy').textContent = data.adaptiveStrategy;
+        }
+
+        /**
+         * Draw the six lines of a hexagram, top (line 6) to bottom (line 1).
+         * `binary` is bottom-first: '1' = solid (yang), '0' = broken (yin).
+         */
+        function renderLines(container, binary, highlight) {
+            container.textContent = '';
+            for (let i = 5; i >= 0; i--) {
+                const row = document.createElement('div');
+                row.className = 'hex-line' + (highlight === i + 1 ? ' is-active' : '');
+                const bars = binary[i] === '1' ? 1 : 2;
+                for (let b = 0; b < bars; b++) {
+                    const bar = document.createElement('span');
+                    bar.className = 'bar';
+                    row.appendChild(bar);
+                }
+                container.appendChild(row);
+            }
+        }
+
+        function setBusy(button, busy, label) {
+            button.disabled = busy;
+            button.innerHTML = label;
+        }
+
+        function showError(element, message) {
+            element.textContent = message;
+            element.hidden = false;
+        }
+
+        function clearError(element) {
+            element.textContent = '';
+            element.hidden = true;
+        }
+    </script>
 </Layout>
