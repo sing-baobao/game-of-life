@@ -37,6 +37,10 @@ jobs:
         run: echo "adapt.singbaobao.com" > public/CNAME
 
       - name: Build Astro site
+        env:
+          # Repository variable holding the deployed Worker URL, e.g.
+          # https://game-of-life.<your-subdomain>.workers.dev
+          PUBLIC_ADVISOR_API_URL: ${{ vars.ADVISOR_API_URL }}
         run: npm run build
 
       - name: Upload static frontend

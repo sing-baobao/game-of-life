@@ -86,10 +86,37 @@ const responseSchemaPhase2 = {
 	required: ['lineNumber', 'adaptiveStrategy'],
 };
 
-function json(data: unknown, status = 200) {
+/**
+ * CORS headers so the static frontend (hosted on GitHub Pages) can call this
+ * Worker cross-origin. Set ALLOWED_ORIGINS to a comma-separated allowlist to
+ * lock it down; when unset any origin is allowed (the route holds no secrets
+ * and authenticated state).
+ */
+function corsHeaders(request: Request): Record<string, string> {
+	const origin = request.headers.get('Origin');
+	const allowed = (env.ALLOWED_ORIGINS ?? '')
+		.split(',')
+		.map((value) => value.trim())
+		.filter(Boolean);
+
+	let allowOrigin = '*';
+	if (allowed.length > 0) {
+		allowOrigin = origin && allowed.includes(origin) ? origin : allowed[0];
+	}
+
+	return {
+		'Access-Control-Allow-Origin': allowOrigin,
+		'Access-Control-Allow-Methods': 'POST, OPTIONS',
+		'Access-Control-Allow-Headers': 'content-type',
+		'Access-Control-Max-Age': '86400',
+		Vary: 'Origin',
+	};
+}
+
+function json(data: unknown, status = 200, headers: Record<string, string> = {}) {
 	return new Response(JSON.stringify(data), {
 		status,
-		headers: { 'content-type': 'application/json; charset=utf-8' },
+		headers: { 'content-type': 'application/json; charset=utf-8', ...headers },
 	});
 }
 
@@ -100,40 +127,46 @@ interface AdvisorRequest {
 	stance?: string;
 }
 
+export const OPTIONS: APIRoute = async ({ request }) => {
+	return new Response(null, { status: 204, headers: corsHeaders(request) });
+};
+
 export const POST: APIRoute = async ({ request }) => {
+	const cors = corsHeaders(request);
+
 	let payload: AdvisorRequest;
 	try {
 		payload = (await request.json()) as AdvisorRequest;
 	} catch {
-		return json({ error: 'Request body must be valid JSON.' }, 400);
+		return json({ error: 'Request body must be valid JSON.' }, 400, cors);
 	}
 
 	const situation = typeof payload.situation === 'string' ? payload.situation.trim() : '';
 	if (situation.length < 10) {
-		return json({ error: 'Please describe your situation in at least a sentence or two.' }, 400);
+		return json({ error: 'Please describe your situation in at least a sentence or two.' }, 400, cors);
 	}
 	if (situation.length > MAX_SITUATION_LENGTH) {
-		return json({ error: `Please keep your description under ${MAX_SITUATION_LENGTH} characters.` }, 400);
+		return json({ error: `Please keep your description under ${MAX_SITUATION_LENGTH} characters.` }, 400, cors);
 	}
 	if (payload.phase !== 'analyse' && payload.phase !== 'advise') {
-		return json({ error: 'Unknown phase. Expected "analyse" or "advise".' }, 400);
+		return json({ error: 'Unknown phase. Expected "analyse" or "advise".' }, 400, cors);
 	}
 
 	const apiKey = env.GEMINI_API_KEY;
 	if (!apiKey) {
-		return json({ error: 'The advisor is not configured: the GEMINI_API_KEY secret is missing.' }, 500);
+		return json({ error: 'The advisor is not configured: the GEMINI_API_KEY secret is missing.' }, 500, cors);
 	}
 
 	const ai = new GoogleGenAI({ apiKey });
 
 	try {
 		if (payload.phase === 'analyse') {
-			return await analyse(ai, situation);
+			return await analyse(ai, situation, cors);
 		}
-		return await advise(ai, situation, payload.hexagramNumber, payload.stance);
+		return await advise(ai, situation, payload.hexagramNumber, payload.stance, cors);
 	} catch (error) {
 		console.error('Advisor request failed:', error);
-		return json({ error: 'The advisor could not reach its reasoning engine. Please try again.' }, 502);
+		return json({ error: 'The advisor could not reach its reasoning engine. Please try again.' }, 502, cors);
 	}
 };
 
@@ -141,7 +174,7 @@ export const POST: APIRoute = async ({ request }) => {
  * Step 1 + 2: map the free-text situation to one of the 64 hexagrams and reveal
  * the underlying dynamic. The classical text is then loaded from local data.
  */
-async function analyse(ai: GoogleGenAI, situation: string) {
+async function analyse(ai: GoogleGenAI, situation: string, cors: Record<string, string>) {
 	const response = await ai.models.generateContent({
 		model: MODEL,
 		contents: `A person has described their situation below, in their own words.
@@ -172,40 +205,50 @@ ${situation}
 
 	const gua = hexagrams.find((h) => h.number === result.hexagramNumber);
 	if (!gua) {
-		return json({ error: 'The advisor produced an unrecognised mapping. Please try again.' }, 502);
+		return json({ error: 'The advisor produced an unrecognised mapping. Please try again.' }, 502, cors);
 	}
 
-	return json({
-		phase: 'analyse',
-		situationSummary: result.situationSummary ?? '',
-		underlyingDynamic: result.underlyingDynamic ?? '',
-		gua: {
-			number: gua.number,
-			name: gua.name,
-			pinyin: gua.pinyin,
-			english: gua.english,
-			upperTrigram: gua.upperTrigram,
-			lowerTrigram: gua.lowerTrigram,
-			binary: gua.binary,
-			judgment: gua.judgment,
-			judgmentEn: gua.judgmentEn,
-			image: gua.image,
+	return json(
+		{
+			phase: 'analyse',
+			situationSummary: result.situationSummary ?? '',
+			underlyingDynamic: result.underlyingDynamic ?? '',
+			gua: {
+				number: gua.number,
+				name: gua.name,
+				pinyin: gua.pinyin,
+				english: gua.english,
+				upperTrigram: gua.upperTrigram,
+				lowerTrigram: gua.lowerTrigram,
+				binary: gua.binary,
+				judgment: gua.judgment,
+				judgmentEn: gua.judgmentEn,
+				image: gua.image,
+			},
 		},
-	});
+		200,
+		cors,
+	);
 }
 
 /**
  * Step 3: given the hexagram, the user's chosen posture and the original
  * situation, map to one of the 384 yao (lines) and advise an adaptive strategy.
  */
-async function advise(ai: GoogleGenAI, situation: string, hexagramNumber: unknown, stance: unknown) {
+async function advise(
+	ai: GoogleGenAI,
+	situation: string,
+	hexagramNumber: unknown,
+	stance: unknown,
+	cors: Record<string, string>,
+) {
 	if (!isStance(stance)) {
-		return json({ error: 'Unknown stance. Expected "positive", "neutral" or "negative".' }, 400);
+		return json({ error: 'Unknown stance. Expected "positive", "neutral" or "negative".' }, 400, cors);
 	}
 
 	const gua = hexagrams.find((h) => h.number === hexagramNumber);
 	if (!gua) {
-		return json({ error: 'Unknown hexagram. Please analyse your situation first.' }, 400);
+		return json({ error: 'Unknown hexagram. Please analyse your situation first.' }, 400, cors);
 	}
 
 	const lines = gua.lines
@@ -244,21 +287,25 @@ Choose the ONE line (1-6) that offers the wisest guidance for someone taking tha
 
 	const yao = gua.lines.find((line) => line.position === result.lineNumber);
 	if (!yao) {
-		return json({ error: 'The advisor produced an unrecognised mapping. Please try again.' }, 502);
+		return json({ error: 'The advisor produced an unrecognised mapping. Please try again.' }, 502, cors);
 	}
 
-	return json({
-		phase: 'advise',
-		adaptiveStrategy: result.adaptiveStrategy ?? '',
-		yao: {
-			position: yao.position,
-			text: yao.text,
-			textEn: yao.textEn,
-			guaNumber: gua.number,
-			guaName: gua.name,
-			guaEnglish: gua.english,
+	return json(
+		{
+			phase: 'advise',
+			adaptiveStrategy: result.adaptiveStrategy ?? '',
+			yao: {
+				position: yao.position,
+				text: yao.text,
+				textEn: yao.textEn,
+				guaNumber: gua.number,
+				guaName: gua.name,
+				guaEnglish: gua.english,
+			},
 		},
-	});
+		200,
+		cors,
+	);
 }
 
 function isStance(value: unknown): value is Stance {

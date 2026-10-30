@@ -179,6 +179,12 @@ export const prerender = true;
 
         const MIN_LENGTH = 10;
 
+        // Where the advisor API lives. Empty means same-origin (local dev and the
+        // Cloudflare Worker deployment). When the frontend is served statically
+        // from GitHub Pages, set PUBLIC_ADVISOR_API_URL to the Worker's URL.
+        const API_BASE = (import.meta.env.PUBLIC_ADVISOR_API_URL ?? '').replace(/\/+$/, '');
+        const API_URL = `${API_BASE}/api/advisor`;
+
         let situation = '';
         let gua = null;
         let stance = 'neutral';
@@ -259,7 +265,7 @@ export const prerender = true;
         });
 
         async function post(body) {
-            const response = await fetch('/api/advisor', {
+            const response = await fetch(API_URL, {
                 method: 'POST',
                 headers: { 'content-type': 'application/json' },
                 body: JSON.stringify(body),
