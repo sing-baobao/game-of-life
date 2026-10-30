@@ -1,16 +1,42 @@
-name: Deploy to Cloudflare Workers
+name: Deploy to GitHub Pages and Cloudflare Workers
 
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 concurrency:
-  group: "cloudflare-workers"
+  group: "pages-and-workers"
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  build-and-deploy-pages:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create CNAME file
+        run: echo "adapt.singbaobao.com" > public/CNAME
+
+      - name: Install, build, and upload your site for GitHub Pages
+        uses: withastro/action@v3
+        with:
+          node-version: "24"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  deploy-cloudflare:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
